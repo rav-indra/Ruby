@@ -1,0 +1,7 @@
+Hash
+  - Hash is collection of key-value pairs.
+  - Accessing a key that doesn't exist returns nil value
+  - Ex : ravi = Hash.new
+  - if Hash has any default value it will return that value if key or value doesn't exist.
+  - ravi = Hash.new("Kaliya")
+  
