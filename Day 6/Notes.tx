@@ -28,3 +28,6 @@ Module
      and then use include keyword
       Ex: require Ruby.rb  # here ruby.rb is a file
           include Ruby     # here Ruby is module form Ruby.rb file
+
+Lamda
+   - 
