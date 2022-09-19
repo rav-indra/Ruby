@@ -28,3 +28,9 @@ puts books['Book1']
 # using fetch the key which doesn't exists returns the default value
 # where as is the key has nay value it give that value
 puts books.fetch(:Book7,0)
+
+# merge two ruby hashes
+
+ah.merge!(books)
+puts ah
+puts books
