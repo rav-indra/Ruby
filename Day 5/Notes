@@ -1,0 +1,98 @@
+Variables
+    - Global variables : they have global scope , and can be accessed everywhere
+                         Begins with symbol '$'
+                         Uninitialized global variables have nil value
+    - Instance variable: Does not need to be initialized first
+                         Begins with symbol '@'
+                         Can be accessed by any specific class
+    - Class Variable   : Can be accessed by class and it's characteristics
+                         Begins with symbol '@@'
+                         Need to be initialized first
+    - Local variable   : Local variable have scope of any specific class, def, do or within any block
+    - Constant variable: Starts with uppercase
+                         Caonstants variables defined with in class can be accessed within the class
+                         And global constant variable can be accessed globaly
+                         Constant can not be defined within methods
+
+Class
+    - It's blueprint for any Object , and from which objects can be created.
+    - Class starts with keyword 'class' and class name must be with Initial Capital
+        ex : class Student
+             end
+    - To create objects from class
+        ex : class Student
+                #code
+             end
+
+             st1 = Student.new
+             st2 = Student.new
+    - Class initialize method : - It is same as constructor
+                                - It would preceded by 'def' keyword 
+                                - It also may take list of parameters
+                                - Used when one wants to initialize some class variables 
+                                  at the time of object creation.
+                                - Ex : class Box
+                                            def initialize(w,h)    
+                                                @width, @height = w, h
+                                            end
+                                        end
+    - Instance variables in class : Ex : class Box
+                                            def initialize(w,h) 
+                                            #assign instance variables
+                                                @width, @height = w, h
+                                            end
+                                        end
+                                    - can be accessed using '@' operator within class 
+                                    - to access outside class public methods are Used 
+                                      which are called "accessor methods"
+    - Accessor and setter methods : - accessor method is getter method
+    - class variable              : - it have scope of class and cannot be used outside class
+    - self method                 : - It is used to call this method form class 
+                                      without creating any object 
+                                      Ex : class Box
+                                           ...
+                                            def self.methodName()
+                                                #code
+                                            end
+                                           ...
+
+                                           Box.methodName()
+    - to_s method                 : - to return string representation of that object
+                                    - Ex : class Box
+                                                def initialize(w,h)
+                                                    @width, @height = w, h
+                                                end
+                                                def to_s
+                                                    "(w:#@width,h:#@height)" # string formatting of object
+                                                end
+                                            end
+                                            box = Box.new(10, 20)
+                                            puts "String representation of box is : #{box}"
+
+Access Control
+    - Public    : - By default methods are public (Except initialize method which is always private)
+                  - public methods can be called by anyone
+    - Private   : - Only class methods can access private members
+                  - can not be accessed or viewed from outside class
+    - Protected : -Can be invoked only by objects of defining class and it's subclasses
+
+
+OOPs
+    1. Inheritance : 
+                - Inheritance is used when we want to reuse the class methods and data in another class
+                - When one class inherits all methods and properties of another class it is called Inheritance.
+                - In Ruby to in inherit class '<' symbol is used
+                    Ex : class Vehicle
+                        end
+                        class Bike < Vehicle 
+                        end
+                * Method Overriding : - Inheritance when both class have method with same name than the method 
+                                        which is in derived class will override the method form parent class.
+                * Freezzing objects : - when we don's want any object to be modified letter, freeze can be used
+                                      - To freeze object use : Object.freeze
+                                      - After freeze object can not be modified
+                                      - to check if Object is forzen or not use : Object.forzen?
+                
+Date & Time
+    - Time class represents date and time 
+        

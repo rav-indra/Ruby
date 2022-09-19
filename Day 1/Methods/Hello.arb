@@ -1,0 +1,27 @@
+#   - Ruby is case sensitive language
+#   - Ruby is pure object oriented language
+=begin
+    this is multiline 
+    comment
+=end
+
+print 'hello'
+puts 'Hello' # same line comments
+
+# this executes at the end of the program, after all the lines been executed
+END {
+    puts "This is end of program"
+}
+
+#print multiple lines in ruby , and as it is
+print <<"Ravi";
+    hello
+hello
+    hiiiii
+Ravi
+
+#Executes first in ruby program before any other line of code 
+BEGIN {
+    puts "This is the code that executes first before any other code"
+}
+

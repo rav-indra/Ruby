@@ -1,0 +1,39 @@
+Introductio of Ruby
+- Syntax
+        - How to print values
+        - Declaring variables 
+        - assign values to variables
+- Arrays
+- Stirng
+- Methods
+        - non parameterized
+        - parameterized
+-If_Else
+        - unless
+        - Case
+- Blocks
+        - BEGIN
+        - END
+- Operators
+        - Arithmetic
+        - Logical 
+        - Bitwise
+        - Comparision
+        - Assignment 
+        - Parallel
+- variables
+        - Class variable
+        - Constant variable
+        - Global variable
+        - Instance variable
+        - Local variable
+- Loops
+        - While 
+        - For
+        - until
+        - each
+        - break
+        - next
+        - redo
+
+

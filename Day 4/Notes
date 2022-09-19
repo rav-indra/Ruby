@@ -1,0 +1,46 @@
+Git
+
+-Git Commands
+    * init            : to initialize the git repository
+    * add             : to add the files to staging area
+    * commit          : to commit the added files its like checkpoint , where we can come back if we messed up file
+    * status          : to check status of all files in repository
+    * checkout        : to undo the added edited file 
+    * log             : to check all history of commits in repository
+    * push            : to upload local repository to any emote repository (Pushing local repo to Github)
+    * -help           : to see all possible commands
+    * (Command) -help : to see all available options in any specific Command
+    * revert          : to undo changes from file and make new commit of that inverse content
+
+- Git BRANCH
+    - Branch helps the developers to work on same projects at same time without affecting the main projects
+    - To do that branch commad get in use , after creating new branch one can work on that branch and original 
+      branch(file) will be untouched untill one merge all branches
+    - commands
+      * branch          : to create new branch
+      * checkout        : to switch between branches
+      * checkout -b     : to make emergency branch
+      * merge           : to merge branches to main branch
+      * branch -d       : to delete branch
+
+- Git Pull
+    - to get most recent updated files from repository
+    - pull is combination of fetch and merge
+    - It is used to pull all changes from a remote repository into the branch you are working on
+      * git pull origin : to get all undated files from Remote repository
+
+- 
+
+
+- Git Conflicts
+    * Git conflicts occurs when same file is being modified by more than one developers 
+      and changes are different in all or one developer deletes that file, than while 
+      merging it will show conflicts , as it doesn't figure out which version of file
+      if correct
+    * Conflicts also occurs because of some changes in working directory , and that are
+      not yet commited/ checkout
+    * Another type of comflicts occur by different branches , as other branch try to 
+      merge with local branch, and both branches have edited same files.
+    * To resolve conflict one can easily change the main falie which was modified 
+      earlier and again add that file in and then after commiting try to merge tha branch
+    * 

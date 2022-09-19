@@ -1,0 +1,29 @@
+Date : 16 September, 2022
+
+Variables
+    - Global
+    - Constant
+    - Local
+    - Instance
+    - Class
+
+Class and Object
+    - initialize method
+    - instance variable in class
+    - Accessor and setter
+    - self method
+
+Access Control
+    - Public
+    - Private
+    - Protected
+
+Inheritance 
+    - method override
+    - freeze object
+
+Date and Time
+    - how to use Time class in Ruby
+
+Few Programs and all update of today 
+    - Pushed all in github repository : https://github.com/ravi-ndra/Ruby/tree/main/Day%205

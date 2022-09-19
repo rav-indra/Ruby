@@ -1,0 +1,15 @@
+Git commands
+    - merge 
+    - branch
+    - checkout
+    - push
+    - pull
+    - revert
+    
+Git Conflicts
+    - main reason of conflict occurence is modifying same directory/file 
+      in different branch and trying to merging it
+
+Made a Local repository , and pushed it to my Github : https://github.com/ravi-ndra/Ruby
+Pulled repository after updating on Remote Repository
+Made a new branch, modified one file and merged branch with main branch

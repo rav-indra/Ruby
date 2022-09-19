@@ -1,0 +1,9 @@
+print 'Ravindra '
+
+puts 'Rk'
+
+puts 'Rk'
+
+for i in 0..5
+    puts i
+end
