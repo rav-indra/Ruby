@@ -14,3 +14,17 @@ Hash
             it will sort keys in hash #{[:a,1],[:b,9],[:c,6]}
         to sort hash by value method is : {}.sort_by(&:last)
       it will give array and after that arr.to_h with convert it to hash
+
+Module
+   - It is collection of methods, constants and class variables 
+   - it is defines as class but with 'module' keyword
+   - cannot inherit is or create subclass of it
+   - Can not create objects from module
+   - used as namespace and mixins 
+   - All classes are modules but all modules are not classes
+   -  To access module in file use include module_name
+      Ex: include Ruby
+   - to access the module in another file use require keyword to get that file and 
+     and then use include keyword
+      Ex: require Ruby.rb  # here ruby.rb is a file
+          include Ruby     # here Ruby is module form Ruby.rb file
