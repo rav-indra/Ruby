@@ -1,0 +1,16 @@
+Hash
+  - Hash is collection of key-value pairs.
+  - Accessing a key that doesn't exist returns nil value
+     Ex : ravi = Hash.new
+  - if Hash has any default value it will return that value if key or value doesn't exist.
+  - ravi = Hash.new("Kaliya")
+  - hs1.merge!(hs2) is used to merge two hashes
+  - if same key is iserted in hash with different value the new value will overwrite exising value
+  - Hash key can have multiple values , and to access any specific value use index of that array
+     Ex : hs[:a][2], here 'hs' is Hash , [:a] is key and [2] is index of any specific value in array
+  * SORTING
+      - to sort hash there is a method 'sort' 
+        Ex: {a: 1, c: 6, b: 9}.sort
+            it will sort keys in hash #{[:a,1],[:b,9],[:c,6]}
+        to sort hash by value method is : {}.sort_by(&:last)
+      it will give array and after that arr.to_h with convert it to hash
