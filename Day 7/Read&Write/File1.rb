@@ -21,4 +21,9 @@ puts File.rename("/home/ubuntu/Documents/Ruby Ravindra/Day 7/Read&Write/Sample.t
 # Renaming File and Adding Extra lines
 f3 = File.open("/home/ubuntu/Documents/Ruby Ravindra/Day 7/Read&Write/NewSample.txt","a+")
 f3.syswrite("Before it was Sample.rb and now it is renamed as NewSample.rb")
+
+puts f3.closed? # will return false as file is not closed
+
 f3.close()
+
+puts f3.closed? # will return true as file is closed
