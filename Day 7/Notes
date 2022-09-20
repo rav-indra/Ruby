@@ -1,0 +1,12 @@
+Map and Each
+    - Each doesn't collect the result while map returns new array with transformed elements
+    - 
+Block
+    - Block is collection of code encoded in do/end statement or between {}
+    - Can be used anywhere
+    - block has same name as method
+    - Block will be called by 'yield' keyword
+    - Blocks can also be called with parameters 
+
+Proc
+    - 
