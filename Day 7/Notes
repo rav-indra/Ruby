@@ -30,5 +30,16 @@ Difference
     1. Procs don't care about the correct number of arguments
        Meanwhile in Lambda it will give error if number of arguments are more than needed
     2. Return and Break behaves differently in both.
-    3. 
+    
+Files
+    - Creating new file in ruby : F = File.new(..., "access")
+    - Control
+        - "r" : Read-Only 
+        - "r+": Read and Write
+        - "w" : Write-Only
+        - "w+": Read and Write
+        - "a" : Write-Only (If file Exists , It will append Data in that file other wise will make new file)
+        - "a+": Read and Write (if Exists append otherwise new file)
+    - To write in file : file.syswrite()
+
 

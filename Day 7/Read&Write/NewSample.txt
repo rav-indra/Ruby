@@ -1,0 +1,3 @@
+Hello ,This is written in Ruby file File1.rb
+This is written in Ruby file again
+Before it was Sample.rb and now it is renamed as NewSample.rb
