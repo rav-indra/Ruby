@@ -9,4 +9,12 @@ Block
     - Blocks can also be called with parameters 
 
 Proc
+    - Proc is used when same block of code is used many times 
+      Ex : name = Proc.new {...}
+      to call the Proc
+           (&name) # here it will call the whole proc block
     - 
+
+Lambda
+    - 
+
