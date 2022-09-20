@@ -13,8 +13,22 @@ Proc
       Ex : name = Proc.new {...}
       to call the Proc
            (&name) # here it will call the whole proc block
-    - 
+    - While calling Proc if we pass more than required parameters it will not give any error but 
+      take only necessory arguments and leave rest extra
 
 Lambda
     - 
+    - While we pass parameters , we have to pass only require amount 
+      If we pass extra parameters it will give Error
+    - Lambda can be defineed using  the method or can be defined as study Lambda
+        Ex: lmd = lambda {|n| puts "I am a Lambda"}
+            or
+            lmd = -> (n) {puts "I am a Lambda"}
+    - Lambda can be called using lmd.call , lmd.() , lmd.[] or lmd.===
+
+Difference 
+    1. Procs don't care about the correct number of arguments
+       Meanwhile in Lambda it will give error if number of arguments are more than needed
+    2. Return and Break behaves differently in both.
+    3. 
 
