@@ -1,1 +1,17 @@
 21 September,2022
+
+CSV File
+  - CSV File Handling
+  - Create CSV file using ruby
+  - Read and Write CSV files
+  - Take user input to to make CSV and Create csv file from taken data.
+  - Problem : Enter Blog Info
+              Title:
+              Description:
+              Published:
+              Author:
+              - once above fields added by user ask for another record
+                Want to add more blog[Y/N] ? 
+                if Y then ask to add same details again.
+                at the end of prograam generate one CSV which will have all the blogs details added though out.
+  - All Code pushed in Repositoy : https://github.com/rav-indra/Ruby/tree/main/Day%208
