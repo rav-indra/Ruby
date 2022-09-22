@@ -1,0 +1,10 @@
+22 September,2022
+
+CSV Program :
+    - Take user choice 
+        if 1. Take another Choice
+              for 1. Enter All Details of Book:Title, Genre, Year, Author
+                  2. Show All Added Book
+                  3. Find Book by Title, Genre, Year or Author
+              and Add Details in CSV file and again ask for choice 1 or 2
+        if 2. List all the Books Details from CSV and Exit

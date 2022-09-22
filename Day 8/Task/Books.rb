@@ -1,4 +1,4 @@
-
+# Program to take user input for Book details and convert all details to CSV file
 require 'csv'
 
 n = "Y"
@@ -6,7 +6,6 @@ i = 0
 books = Array.new
 header = ["Title","Description","Published","Author"] 
 
-  puts "#{books}"
 while n=="Y"
   books[i] = Array.new
   puts "Enter Title of Books :"
