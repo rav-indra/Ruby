@@ -1,0 +1,30 @@
+
+
+String Methods 
+    - String is sequence of characters in "quatation" marks
+      1.  str.size               : Returns size of String
+      2.  str.empty?             : Returns true or false is string is empty or not
+      3.  str.include?("st")     : Returns true if string includes "st"(or any string) else false
+      4.  str.gsub(a,b)          : Will replace "a" from string with "b"
+      5.  str.split              : gives array of given string , words separated by space
+      6.  str.index("a")         : gives index of "a" , at which position "a" is first located in string 
+      7.  str.casecmp st         : compares both string ignoring case and gives "0" if both are same else "1"
+      8.  str.eql? st            : compare strings in case sensitive manner and gives true if both are same and in same case
+      9.  str.upcase             : returns string in Upper Case
+      10. str.downcase           : returns string in down case
+      11. str.strip              : returns string after removing extra spaces before and after string
+      12. str.start_with?(st)    : true if string starting with "st" else false
+      13. str.end_with?(st)      : true if string ending with "st" else false
+      14. str.match?(/\A-?\d+\Z/): returns true if string is made of only numbers else false
+      15. str << "hello"         : Will insert "hello" at the end of string
+      16. str.each_char{}        : wil Iterate through every character of string
+      17. str.count(char)        : count how many times any specific character or string repeates in given string
+
+OOP
+    1. Cohesion
+            - It is relation between all methods inside class
+            - Low cohesion is like having unusual methods in class
+            - High cohesion is like everything is where it has to be
+            - 
+    2. Coupling
+            - It is how dependent is a class to other classes
