@@ -1,0 +1,30 @@
+22 September,2022
+
+CSV File Handling
+  - Learned CSV File Handling
+  - Program to get Books Details fromUser
+  - Show all Details 
+  - Find Books Details by Title,Genre,Year or Author
+
+Array Methods
+  - Array can be contructed using 'new' method that have zero, one or more arguments
+  1. arr.at(index)          : find the element at given index
+  2. arr[index]             : find element at given index
+  3. arr[index,n]           : gives total "n" elements starting from given "index"
+  4. arr.fetch(index)       : gives out of bound index error with range to select between
+  5. arr.first              : gives first element of Array
+  6. arr.last               : gives Last element of Array
+  7. arr.take(n)            : gives first n elements from Array
+  8. arr.drop(n)            : gives rest of all elements after dropping first n elements
+  9. arr.join               : will rertun string joining all elements of array
+  10. arr.compact           : returns only not nill values from array
+  * Addin Items in Array
+    1. arr.push("XYZ")      : adding 'XYZ' at the end of array
+    2. arr << ("ABC")       : adding 'ABC' at the end of array
+    3. arr.unshift("PQR")   : adding 'PQR' at the beginning of array
+    4. arr.insert(n,"JKL")  : adding 'JKL' at nth index shifting elements from nth to next index
+  * Removing Items from Array
+    1. arr.pop              : removing elemet from end of array and return removed elemet
+    2. arr.shift            : removing element from start of array and return removed element
+    3. arr.delete(e)        : delete any item
+    4. arr.uniq             : remove duplicate elements
