@@ -29,4 +29,26 @@ OOP
             - It is how dependent is a class to other classes
     - Class methods : this methods are called using class only
                       and doesn't require any object
-                      
+
+Regular Expression
+    - It is also called regex
+    - used to match pattern in given string
+    - pattern match is achived by =~ and #match
+        1. =~  -->  /check/ =~ string : here it checks is check matches with data of string
+        2. #match --> /check/.match string : here it will check if check matches with any pattren in string
+    - METACHARACTERS and ESCAPES
+        - these have specific meaning in pattern
+        - to match string, backslashes(\\) are used
+        - ex: (,),(.),(?),(+),(-),(*),[,],{,}
+        1. *    : Zero or more times 
+        2. +    : one or more times
+        3. ?    : zero or one times
+        4. {n}  : Exactly n times
+        5. {n,} : n or more times
+        6. {,m} : m or less times
+        7. {n,m}: Atleast n and at most m times
+    - /regex/i will ignore case in Regulaer Expression
+    - /regex/x will ignore extra spaces in Regulaer Expression
+    - /regex/m will join the dot(.) work as same
+    - /re.*ge.*x/m : here imaging every word is in different line with dor(.) but it will ignore lines 
+    
