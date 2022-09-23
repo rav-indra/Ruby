@@ -2,6 +2,8 @@
 
 String Methods
     - Done all known string methods
+    - size, empty?, include?, start_with?, end_with?, downcase, upcase, casecmp,
+      eql?, gsub, split, index, strip, match?, count
 Class
     - Class Methods (Self)
 Regular Expression
