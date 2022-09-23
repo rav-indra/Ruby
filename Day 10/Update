@@ -1,4 +1,14 @@
 23 September,2022
 
-Hash Methods
-    - 
+String Methods
+    - Done all known string methods
+Class
+    - Class Methods (Self)
+Regular Expression
+
+
+Weekly Status [19/09 - 23/09]
+    - I have done Hash,Module,Proc,Lambda and Regular Expression
+    - Done CSV file Handling(Read & Write)
+    - I have done one Program for taking user Input 
+      and storing all data in CSV file.
