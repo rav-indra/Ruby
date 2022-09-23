@@ -25,6 +25,8 @@ OOP
             - It is relation between all methods inside class
             - Low cohesion is like having unusual methods in class
             - High cohesion is like everything is where it has to be
-            - 
     2. Coupling
             - It is how dependent is a class to other classes
+    - Class methods : this methods are called using class only
+                      and doesn't require any object
+                      
