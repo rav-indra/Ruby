@@ -1,7 +1,6 @@
-# 
+# Residential Property 
+
 require_relative "Properties.rb"
-require_relative "EMI_per_month.rb"
-include EMI
 include Prop
 class Residential_Properties < Prop::Properties
   attr_accessor :type
@@ -30,4 +29,6 @@ puts "Total Property price : #{rp1.price}"
 
 rp1.emi_for_property()
 
-puts "Extra amount given through interest is :#{rp1.extra.round(2)}"
+puts "Total ammount to pay for this #{rp1.type} including Interest is #{rp1.total_pay.round(2)}"
+extra = rp1.total_pay.round(2) - rp1.price
+puts "Extra amount given through interest is :#{extra}"

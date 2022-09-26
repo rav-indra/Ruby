@@ -1,0 +1,6 @@
+- Forluma to calculate EMI : C * IR * ((1 + IR)^N)/(((1 + IR)^N)-1)
+    C = Capital amount, IR = Interest Rate per month(IR(per annum)/(12*100) , N = Period in months (N(years) * 12)
+- To access class from module use '::' 
+                                  -Ex :- Abc::Ravi
+                                        here Abc is module and Ravi is class
+- 

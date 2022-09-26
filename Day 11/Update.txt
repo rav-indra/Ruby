@@ -11,3 +11,5 @@
   - Pattern Programs
   - class, objects, inheritance, module
   - Practical program using Class, Object, Module, Inheritance, Methods
+  - Program using module,inheritance,class calculate EMI for properties
+  - Pushed all Progran in repository : https://github.com/rav-indra/Ruby/tree/main/Day%2011
