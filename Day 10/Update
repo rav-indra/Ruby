@@ -10,7 +10,7 @@ Regular Expression
 
 
 Weekly Status [19/09 - 23/09]
-    - I have done Hash,Module,Proc,Lambda and Regular Expression
+    - I have done Hash,Module,Proc,Lambda and Regular Expression,Array and String Methods
     - Done CSV file Handling(Read & Write)
     - I have done one Program for taking user Input 
       and storing all data in CSV file.
