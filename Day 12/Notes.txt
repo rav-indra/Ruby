@@ -8,3 +8,29 @@ Method overloading
     - So, to overload method use choice in method with different number of arguments 
     - in every choice one can use if else for type of given arguments
 
+Difference Compact and Compact! (in Array)
+    - Main differnece is that .comapct will return new Array
+    - meanwhile .comapct! will make change the original Array
+
+- '!' is to indicate that after this method the original data will be modified and can not be undone
+  this will change the whole data
+
+Encapsulation
+    - Encapsulation is when you want to combine data, methods in one class 
+    - In encapsulation data will be private and can not be accessed by other than class methods
+
+Abstraction
+    - when the only necessary data has to be shown 
+    - and not how that is implemented there Abstraction is used
+    
+Loops
+    - upto      : here it will run from starting to given ending number
+        Ex: 1.upto 10 {} will run from 1 to 10 total ten times 
+    - times     : it will runs for given times 
+        Ex: 5.times{} this block will run for 5 times
+    - downto    : it will run same as upto but in reverse
+        Ex: 10.downto 0{} will run from 10 to 0 
+    - step      : it is same as downto and upto with with other number given 
+                  that means it will not subtract or add by 1 but by given number
+        Ex: 0.step 50,5 will run total 10 times like first 0 then add 5 so 5,10,15,20,25,and so on
+
