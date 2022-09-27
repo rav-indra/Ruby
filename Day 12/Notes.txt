@@ -1,0 +1,10 @@
+Super Keyword
+    - super     : it automatically sends all necessary arguments with it when it is called
+    - super()   : it sends zero arguments while calling 
+    - super(arg): it sends some parameters but here we have to pass , it will not send it automatically
+
+Method overloading
+    - In Ruby method overloading is not possible directly
+    - So, to overload method use choice in method with different number of arguments 
+    - in every choice one can use if else for type of given arguments
+
