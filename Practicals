@@ -1,0 +1,35 @@
+1: Create one hash program dynamic added value into the hash. If user add 5, then 5 items are save into the hash.
+
+2: Created one hash program with can changes the existing value. Like if user give index 2 and value 50, then i’ll  changes the value of 2 index. Or if given index are not found than value are added into last of the hash items.
+
+3: Created one hash program hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"}, get value as per given key, FOR ex:   user enter a as a key then it return 1. 
+
+
+4:  Created two hash 
+	first = {a: 10, bb: 20, 'c': 30, dfg: "first_hash_item"}
+	second = {'a': 10, bb: 20, c: 30, dfg: "second_hash_item"}
+
+	Creating  third hash as per above two hash.
+	third = {bb:40, dfg: "first_hash_item WITH second_hash_item"}
+
+5:  Created one simple demo for transportation using the Modules.
+	It created classes for cars, trains , bikes, airplanes, and yachts.
+	That created a simple method for a trip.
+	EXAMPLE: If i call car class method trip then it give me output like
+			- "THIS VEHICLE IS FOR REAL ONLY".
+
+6: We have one string class, in that I want four function.
+	- reverse, first_latter_capital, array_as_per_word, count_specifil_letter.
+
+7: I have one company, and i have 15+ employee, So i want to count below things
+	- How many male or how many female
+	- How many employee are more the age 30 +
+	- How many employee's salary are in between the 25000 to 32000
+	- How many employees have a 2 to 5 year of experience.
+
+8 :Created one program for array. [5,8,6,3,2,4,5,12,52,65,21,20]
+Find the descending order sorting. And also find the odd and even number. 
+
+9: Create one array example for swap. In that, swapper these two index keys which are given by the user. Ex: arr = [1,3,5]  swap_key: 2, 0 so index 2 and index 0 value are swapped.
+
+
