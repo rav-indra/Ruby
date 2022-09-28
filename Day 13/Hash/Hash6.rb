@@ -4,4 +4,4 @@
 hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"}
 puts "Enter key to get value :"
 ky = gets.chomp
-puts hash[:ky]
+puts hash[:"#{ky}"]
