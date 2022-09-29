@@ -1,0 +1,30 @@
+Ruby Set 
+    - It stores elements just like array but only uniqe elements will be stored
+    - No duplicate element will be stored
+    - Set if fast to find if it includes any specific element or not 
+    - In array to find any element it will iterate through all elements so it is time consuming
+    - but in Set it doesn't have to iterate ,so it is very fast
+        Ex : product = Set.new  # {}
+             product << 1       # {1}
+             product << 3       # {1,3}
+             product << 1       # {1,3} didn't add 1 as it is already in Set
+    - In array we have direct access to any elemet by index , but in set it is not possible
+    - But set can be converted to array
+    - Methods
+        1. Union operator       : product | (1..4) => {1,2,3,4}
+        2. Difference operator  : product - (3)    => {1,2,4}
+        3. Intersection         : product & (2,4)  => {2,4}
+    - Superset & Subset
+        ‣ Superset is set that contains all the elements of other set.
+            set.new(10..40) >= set.new(20..30)
+        ‣ Subset is set that is made from parts of another set.
+            set.new(30..40) <= set.new(10..50)
+    - SortedSet : It will give set where all elements are sorted
+            Ex  : srt = SortedSet.new
+                  srt << 5
+                  srt << 2
+                  srt << 3
+                  srt << 1
+                  {1,2,3,5}
+    
+    
