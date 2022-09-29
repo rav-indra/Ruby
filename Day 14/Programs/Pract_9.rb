@@ -12,7 +12,7 @@ while n > 0
 end
 puts "Array before swapping :\n#{arr}"
 
-puts "Enter two index to swap values:"
+puts "Enter two index to swap values between 0 to #{n-1}:"
 x = gets.chomp.to_i
 y = gets.chomp.to_i
 

@@ -2,7 +2,7 @@ DONE 1: Create one hash program dynamic added value into the hash. If user add 5
 
 DONE 2: Created one hash program with can changes the existing value. Like if user give index 2 and value 50, then i’ll  changes the value of 2 index. Or if given index are not found than value are added into last of the hash items.
 
-Done 3: Created one hash program hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"}, get value as per given key, FOR ex:   user enter a as a key then it return 1. 
+DONE 3: Created one hash program hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"}, get value as per given key, FOR ex:   user enter a as a key then it return 1. 
 
 
 4:  Created two hash 
@@ -12,7 +12,7 @@ Done 3: Created one hash program hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"
 	Creating  third hash as per above two hash.
 	third = {bb:40, dfg: "first_hash_item WITH second_hash_item"}
 
-5:  Created one simple demo for transportation using the Modules.
+DONE 5:  Created one simple demo for transportation using the Modules.
 	It created classes for cars, trains , bikes, airplanes, and yachts.
 	That created a simple method for a trip.
 	EXAMPLE: If i call car class method trip then it give me output like

@@ -1,5 +1,5 @@
 # We have one string class, in that I want four function.
-#	- reverse, first_latter_capital, array_as_per_word, count_special_letter.
+#	- reverse, first_letter_capital, array_as_per_word, count_special_letter.
 
 class Sentance
   def reverse(str)

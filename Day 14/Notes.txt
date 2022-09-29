@@ -27,4 +27,5 @@ Ruby Set
                   srt << 1
                   {1,2,3,5}
     
-    
+Hash 
+    - In hash to cob=nvert any key to symbol use : hash.transform_keys!(&:to_sym)
