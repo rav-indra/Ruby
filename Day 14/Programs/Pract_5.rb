@@ -22,7 +22,7 @@ module Transportation
   end
   class Yatchs
     def trip
-      puts "Good when you want to explore though water , but all can't afford Yatch!"
+      puts "Good when you want to go by water , but all can't afford Yatch!"
     end
   end
 end
