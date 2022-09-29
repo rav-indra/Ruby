@@ -21,7 +21,7 @@ DONE 5:  Created one simple demo for transportation using the Modules.
 DONE 6: We have one string class, in that I want four function.
 	- reverse, first_latter_capital, array_as_per_word, count_special_letter.
 
-7: I have one company, and i have 15+ employee, So i want to count below things
+DONE 7: I have one company, and i have 15+ employee, So i want to count below things
 	- How many male or how many female
 	- How many employee are more the age 30 +
 	- How many employee's salary are in between the 25000 to 32000

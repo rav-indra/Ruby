@@ -1,0 +1,4 @@
+29 September,2022
+    - ruby Sets
+    - Proc and Lambda
+    - Array,Hash,Module Practicals
