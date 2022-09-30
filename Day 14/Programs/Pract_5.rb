@@ -12,7 +12,7 @@ module Transportation
   end
   class Trains
     def trip
-    puts "It feels like adventurous in trains adn specialy some loaction!"
+    puts "It feels like adventurous in trains and specialy some loaction!"
     end
   end
   class Bikes
