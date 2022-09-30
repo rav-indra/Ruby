@@ -5,7 +5,7 @@ DONE 2: Created one hash program with can changes the existing value. Like if us
 DONE 3: Created one hash program hash = {a: 1, 'b' => 2, c: 3, d: 4, e: "i am e"}, get value as per given key, FOR ex:   user enter a as a key then it return 1. 
 
 
-Done 4:  Created two hash 
+DONE 4:  Created two hash 
 	first = {a: 10, bb: 20, 'c': 30, dfg: "first_hash_item"}
 	second = {'a': 10, bb: 20, c: 30, dfg: "second_hash_item"}
 
