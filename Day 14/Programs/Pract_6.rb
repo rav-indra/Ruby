@@ -34,7 +34,7 @@ end
 
 stnc = Sentance.new
 
-str = "i am ravindra"
+str = "i am ravindra!"
 
 puts "String in Reverse :"
 stnc.reverse(str)

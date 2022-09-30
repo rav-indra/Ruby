@@ -27,7 +27,7 @@ DONE 7: I have one company, and i have 15+ employee, So i want to count below th
 	- How many employee's salary are in between the 25000 to 32000
 	- How many employees have a 2 to 5 year of experience.
 
-8 :Created one program for array. [5,8,6,3,2,4,5,12,52,65,21,20]
+DONE 8 :Created one program for array. [5,8,6,3,2,4,5,12,52,65,21,20]
 Find the descending order sorting. And also find the odd and even number. 
 
 DONE 9: Create one array example for swap. In that, swapper these two index keys which are given by the user. Ex: arr = [1,3,5]  swap_key: 2, 0 so index 2 and index 0 value are swapped.

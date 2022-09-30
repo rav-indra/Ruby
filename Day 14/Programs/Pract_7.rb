@@ -3,7 +3,6 @@
 # 	- How many employee are more the age 30 +
 # 	- How many employee's salary are in between the 25000 to 82000
 # 	- How many employees have a 2 to 5 year of experience.
-# Name,Gender,Age,Experience(Years),Salary
 
 require "csv"
 

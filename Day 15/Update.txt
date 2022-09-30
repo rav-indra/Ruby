@@ -1,0 +1,16 @@
+30 September,2022
+
+Weekly Summary (26 Sept to 30 Sept)
+This week i have worked on following things :
+  - I have done Programs with Class, Objects,
+    Methods, Inheritance, Overriding, Overloading, 
+    Proc and Lambda ,Array and Hash
+  - I have done Pattern Programs and Practicals given by Senior.
+  - A Employee Details program from practical that count male/female ,
+    Employees above age 30,salaray between 25000 to 82000 ,and Experience 
+    2 to 5 years , from CSV file of more than 15 Employees 
+  - Student Result Program using Class, Inheritance,Modules
+  - An EMI calculator Program using Class, Inheritance,Modules
+    that take Total amount,Interest rate and Time period, and after
+    returns Monthly Installment Amount, Total Amount after Interest
+    for that Thing

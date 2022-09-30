@@ -9,10 +9,10 @@ first = {a: 10, bb: 20, 'c': 30, dfg: "first_hash_item"}
 second = {'a': 10, bb: 20, c: 30, dfg: "second_hash_item"}
 
 third = first.merge(second) do |k,o,n|
-  if o.is_a?Integer 
-    o + n
-  elsif o.is_a?String
-    o +" WITH "+n
-  end
+    if o.is_a?Integer 
+      o + n
+    elsif o.is_a?String
+      o +" WITH "+n
+    end
 end
 puts "#{third}"
