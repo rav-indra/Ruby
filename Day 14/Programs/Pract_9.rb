@@ -16,8 +16,14 @@ puts "Enter two index to swap values between 0 to #{n-1}:"
 x = gets.chomp.to_i
 y = gets.chomp.to_i
 
-temp   = arr[x]
-arr[x] = arr[y]
-arr[y] = temp
+# with using third variable
+# temp   = arr[x]
+# arr[x] = arr[y]
+# arr[y] = temp
+
+# without using third vriable
+arr[x] = arr[x] + arr[y]
+arr[y] = arr[x] - arr[y]
+arr[x] = arr[x] - arr[y]
 
 puts "Array after swapping :\n#{arr}"

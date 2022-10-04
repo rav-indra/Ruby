@@ -20,9 +20,9 @@ module Transportation
       puts "Best for solo or duo riding and long riding with pleasent weather!"
     end
   end
-  class Yatchs
+  class Yachts
     def trip
-      puts "Good when you want to go by water , but all can't afford Yatch!"
+      puts "Good when you want to go by water , but all can't afford Yacht!"
     end
   end
 end

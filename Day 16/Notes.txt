@@ -1,0 +1,15 @@
+04 October,2022
+
+Each_slice 
+    - Each slice take the range and print in group of given numbers
+        Ex : (1..10).each_slice(3){|a| puts "#{a}"}   # will return [1,2,3],[4,5,6],[7,8,9],[10]
+    - Each Slice gives Enum if there is not block given
+
+WithIndifferentAccess
+    - In hash where two kiys have same name but diffrent types then this method is used
+    - Ex : keys are {a: 2, b: 5} and {"a" => 3} here both a: and "a" are considered different 
+      one is string and other is symbol
+    - to use this method it requires 'active_support/core_ext/hash/indifferent_access'
+    - It will covert hash keys to string
+        Ex: h1 = ActiveSupport::HashWithIndifferentAccess.new(h1) # here hash "h1" will covert all keys to string
+        

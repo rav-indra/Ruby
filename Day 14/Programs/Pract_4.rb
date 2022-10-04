@@ -8,9 +8,9 @@
 first = {a: 10, bb: 20, 'c'=> 30, dfg: "first_hash_item"}
 second = {'a'=> 10, bb: 20, c: 30, dfg: "second_hash_item"}
 third = {}
-fk = first.keys
-sk = second.keys
-(fk&sk).each do |k|
+first_keys = first.keys
+second_keys = second.keys
+(first_keys & second_keys).each do |k|
   if first[k].is_a?Integer
     third[k] = first[k] + second[k]
   elsif first[k].is_a?String
