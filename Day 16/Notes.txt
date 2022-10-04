@@ -13,3 +13,14 @@ WithIndifferentAccess
     - It will covert hash keys to string
         Ex: h1 = ActiveSupport::HashWithIndifferentAccess.new(h1) # here hash "h1" will covert all keys to string
         
+All : abc.all?{}
+    - here it will check condition from block for all and if condition is true for all only then will 
+      return 'True' else will return 'False'
+Any : abc.any?{}
+    - Here it will give block to each element and even if one element is true for condition it will return "true"
+      else "false"
+None: abc.none?{}
+    - Here it will return "true" only if all elements doesn't pass condition else will return "false"
+one : abc.one?{}
+    - Here it will return "true" exactly one element pass the condition , if two elements pass condition
+      it will return "false"

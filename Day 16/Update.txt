@@ -2,4 +2,5 @@
 
 - Each Slice method
 - Hash with Indifferent Access method
+- all?, any?, none?, one? methods
 - Remaining Practicals and change in Practicals
