@@ -6,6 +6,5 @@ for i in 0...10
     arr[i] = gets.chomp
 end
 puts "Array elements are:\n"
-for i in 0...10
-    print "#{arr[i]}\n"
-end
+
+print arr
