@@ -1,0 +1,5 @@
+04 October,2022
+
+- Each Slice method
+- Hash with Indifferent Access method
+- Remaining Practicals and change in Practicals

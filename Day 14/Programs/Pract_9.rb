@@ -5,12 +5,12 @@ arr = Array.new
 puts "Enter Array size :"
 n = gets.chomp.to_i
 puts "Enter #{n} elements for array:"
-
-while n > 0
+count = n
+while count > 0
   arr.push(gets.chomp.to_i)
-  n-=1
+  count-=1
 end
-puts "Array before swapping :\n#{arr}"
+puts "Array before swapping : \n#{arr}"
 
 puts "Enter two index to swap values between 0 to #{n-1}:"
 x = gets.chomp.to_i
@@ -22,8 +22,16 @@ y = gets.chomp.to_i
 # arr[y] = temp
 
 # without using third vriable
-arr[x] = arr[x] + arr[y]
-arr[y] = arr[x] - arr[y]
-arr[x] = arr[x] - arr[y]
+# arr[x] = arr[x] + arr[y]
+# arr[y] = arr[x] - arr[y]
+# arr[x] = arr[x] - arr[y]
+
+# without using third variable with XOR
+# arr[x] = arr[x] ^ arr[y]
+# arr[y] = arr[x] ^ arr[y]
+# arr[x] = arr[x] ^ arr[y]
+
+
+arr[x], arr[y] = arr[y], arr[x]
 
 puts "Array after swapping :\n#{arr}"
