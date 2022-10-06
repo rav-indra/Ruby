@@ -1,0 +1,12 @@
+6 October,2022
+
+Undercore(_) :
+    - It is special type of variable that stores the last obtained answer in it
+      Ex: a = 5
+          a + 6   # 11
+          _ * 3   # 33
+
+Order 
+    - ' ', '!', '\', '#', '$', '%', '&', ''', '(', ')', '*', '+', ',', '-', '.', '/', '0'...
+    - ':', ';', '<', '=', '>', '?', '@', 'A'..., 'AA'...
+    - '^', '_', '`', 'a'...'aa'...

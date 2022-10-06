@@ -1,0 +1,5 @@
+6 October,2022
+
+- Ruby Methods Revised
+- Ruby Array and String methods
+- Sleep method 

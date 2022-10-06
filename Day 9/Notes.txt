@@ -7,7 +7,7 @@ CSV File Handling
   - Find Books Details by Title,Genre,Year or Author
 
 Array Methods
-  - Array can be contructed using 'new' method that have zero, one or more arguments
+  - Array can be constructed using 'new' method that have zero, one or more arguments
   1. arr.at(index)          : find the element at given index
   2. arr[index]             : find element at given index
   3. arr[index,n]           : gives total "n" elements starting from given "index"
@@ -18,7 +18,7 @@ Array Methods
   8. arr.drop(n)            : gives rest of all elements after dropping first n elements
   9. arr.join               : will rertun string joining all elements of array
   10. arr.compact           : returns only not nill values from array
-  * Addin Items in Array
+  * Adding Items in Array
     1. arr.push("XYZ")      : adding 'XYZ' at the end of array
     2. arr << ("ABC")       : adding 'ABC' at the end of array
     3. arr.unshift("PQR")   : adding 'PQR' at the beginning of array

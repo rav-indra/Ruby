@@ -19,6 +19,7 @@ String Methods
       15. str << "hello"         : Will insert "hello" at the end of string
       16. str.each_char{}        : wil Iterate through every character of string
       17. str.count(char)        : count how many times any specific character or string repeates in given string
+      18. str.next               : this will give one character plus of last character ,like in "ravi" it will return "ravj"
 
 OOP
     1. Cohesion
