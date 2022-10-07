@@ -1,0 +1,9 @@
+7 October,2022
+
+
+
+Weekly Summary [03/10 to 07/10]
+This week i have done following things
+- Each Slice, Hash with Indifferent Access method ,all?, any?, none?, one? methods
+- Other ruby methods revised and String ,Array methods
+- Remaining Practicals and change in Practicals and practiced questions on leetcode
