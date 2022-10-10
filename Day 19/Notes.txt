@@ -1,3 +1,6 @@
 10 October,2022
 
 - XOR : when two numbers are different it gives 1 else 0
+- String tr() method
+    - tr(a,b) will replace all a with b
+    - like if string is "Heeeeelllllo".tr("el","ip") will replace all "e" with "i" and all "l" with "p"
