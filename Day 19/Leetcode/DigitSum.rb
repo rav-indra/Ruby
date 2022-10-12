@@ -8,11 +8,20 @@
 # Return s after all rounds have been completed.
 
 def digit_sum(s, k)
-  ar = s.split("")
-  puts "#{ar}"
+  if s.length < k
+      return s
+  end
+  ar = s
   ar2 = []
-  ar.each_slice(k) {|c| ar2 << c}
-  puts "#{ar2}"
+  while ar.length > k
+    ar = ar.split("")
+    ar.map! {|c| c.to_i}
+    ar.each_slice(k) {|c| ar2 << c}
+    ar2.map! {|c| c.sum}
+    ar = ar2.join
+    ar2 = []
+  end 
+  return ar
 end
 
-puts digit_sum("11111222223",3)
+puts digit_sum("01234567890",2)

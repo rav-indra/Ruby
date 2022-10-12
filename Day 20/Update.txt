@@ -1,0 +1,8 @@
+12 October,2022
+
+- Started HTML
+- HTML Basics
+- syntax, comments, basic elements
+- tags : anchor, image, paragraph, link, , inline css style(font-family,size,color,background-color,align)
+- HTML color (colors, rgb, rgba, hex, hsl, hsla)
+- HTML formatting elements (i, em, strong, sub, sup, b, mark, small, del, ins)

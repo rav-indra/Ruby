@@ -1,0 +1,67 @@
+12 October,2022
+HTML
+- The value of the title attribute will be displayed as a tooltip when you mouse over the element
+  ex :- <p title = "Paragraph"> This is paragraph</p> // here if we hover that text , it will show what title is given
+
+Topics 1 :
+    - All HTML elements can have attributes
+    - The href attribute of <a> specifies the URL of the page the link goes to
+    - The src attribute of <img> specifies the path to the image to be displayed
+    - The width and height attributes of <img> provide size information for images
+    - The alt attribute of <img> provides an alternate text for an image
+    - The style attribute is used to add styles to an element, such as color, font, size, and more
+    - The lang attribute of the <html> tag declares the language of the Web page
+    - The title attribute defines some extra information about an element
+
+<pre> Tag : it will show text as it is written
+
+Topics 2 :
+    - Use the style attribute for styling HTML elements
+    - Use background-color for background color
+    - Use color for text colors
+    - Use font-family for text fonts
+    - Use font-size for text sizes
+    - Use text-align for text alignment
+
+HTML formatting elements
+    - <b> - Bold text
+    - <strong> - Important text
+    - <i> - Italic text
+    - <em> - Emphasized text
+    - <mark> - Marked text
+    - <small> - Smaller text
+    - <del> - Deleted text
+    - <ins> - Inserted text
+    - <sub> - Subscript text
+    - <sup> - Superscript text
+
+HTML Quotation and Citation Elements
+    - <abbr>	      : Defines an abbreviation or acronym
+    - <address>	    : Defines contact information for the author/owner of a document
+    - <bdo>	        : Defines the text direction
+    - <blockquote>	: Defines a section that is quoted from another source
+    - <cite>	      : Defines the title of a work
+    - <q>	          : Defines a short inline quotation
+
+HTML Color
+    - color
+    - rgb (0-256,0-256,0-256)
+    - rgba (here a is alpha for opicity)
+    - hex
+    - hsl : Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+            Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+            Lightness is also a percentage value. 0% is black, and 100% is white.
+    - hsla
+- for gray shades just use all rgb as same like rgb(1,1,1) or #a1a1a1
+
+CSS
+    - <a href = "mailto:asd@gmail.com">abc</a> it will redirect to compose mail to given email address
+
+- Bokkmark for jump to any specific location in webpage
+
+Image Map,Area
+    - img map is used to give any clickable area to image 
+    - so only after clicking that specific area the link will be opened
+    - Ex : <map name="abc"><area shape="rect" coords="12,123,21,21" href="as.img"></map>
+    - to use this map in image 
+        ex: <img src="as" usemap="#abc">
