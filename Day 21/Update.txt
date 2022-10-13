@@ -1,1 +1,13 @@
 13 October,2022
+
+  - Learned abount HTML image tags 
+      -> <map>,<area> tag : to link any page to spesific part in image
+      -> <picture> tag    : to set different images for different width(different devices)
+  - Table(rowspan,colspan,colgroup)
+  - Favicon for HTML page
+  - List
+      -> unordered list
+      -> ordered list
+      -> Description List
+  - Block and Inline (<div>,<span> tag)
+  - Class and Id

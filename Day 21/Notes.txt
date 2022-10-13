@@ -2,7 +2,7 @@
 Map tag
     - The HTML <map> tag defines an image map. An image map is an image with clickable areas.
     - The areas are defined with one or more <area> tags.
-    - Area has these arguments 
+    - Area has these attributes
         - shape    : "rect"(for rectangle)
                      "circle"(for circle)
                      "poly"(for polygone)
@@ -33,8 +33,23 @@ List
         -> none
     - <ol>	Defines an ordered list(type="")
         -> 1(default), A, a, I, i
+        -> can start from any where (start="50",only number from where to start)
     - <li>	Defines a list item
     - <dl>	Defines a description list
     - <dt>	Defines a term in a description list
     - <dd>	Describes the term in a description list
     - css property , float:left to show list horizontaly
+
+Block & Inline
+    - <div> is block level section element(it takes whole widht space from left to right as much as it can take)
+    - <span> is inline section element (it only takes required width space, as much the content is occupying)
+
+Classes and Ids
+    - class attribute is often used to point to a class name in a style sheet
+    - same class name can be used multiple times to group them
+    - HTML elements can belong to more than one class.(like class="name myname")
+    - id attribute is used to give uniq name , and access uniqally
+    - same id can not be used again, every id is unique
+    - both class and id name are case sensitive
+    - to access class in css use dot(.) before class name(.name)
+    - to access Id in css use # before Id name(#name)
