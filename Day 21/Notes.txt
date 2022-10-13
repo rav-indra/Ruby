@@ -1,0 +1,40 @@
+13 October,2022
+Map tag
+    - The HTML <map> tag defines an image map. An image map is an image with clickable areas.
+    - The areas are defined with one or more <area> tags.
+    - Area has these arguments 
+        - shape    : "rect"(for rectangle)
+                     "circle"(for circle)
+                     "poly"(for polygone)
+                     "default"(for entire area)
+        - coords   : for rectangle (left,top,right,bottom), for circle(top,left,radius),for any other shape(left,top,left,top,... untill shape made)
+        - alt      : alternate name for image
+        - href     : hiperlink for webpage related to that area
+
+Background Cover
+    - If one wants any image to be background for entire body
+    - use style tag , and in that tag use background-image : url(''); in body
+    - then to fix the background use background-attachment: fixed;
+
+<picture> tag
+    - picture tag is used when we want to chabge image when screen size is different
+    - in picture tag there can be two tags : source and img
+    - source tag to apply different image for different size
+    -  and img tag for default,if any of above doesn't match the screen size 
+
+TABLE
+    - <colgroup> : it will group the columns and apply all style to that group and other columns will be untouched
+
+List
+    - <ul>	Defines an unordered list (style="list-style-type:")
+        -> disc (default)
+        -> circle
+        -> square
+        -> none
+    - <ol>	Defines an ordered list(type="")
+        -> 1(default), A, a, I, i
+    - <li>	Defines a list item
+    - <dl>	Defines a description list
+    - <dt>	Defines a term in a description list
+    - <dd>	Describes the term in a description list
+    - css property , float:left to show list horizontaly
