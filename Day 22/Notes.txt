@@ -1,0 +1,52 @@
+14 October,2022
+
+iframe
+    - <iframe> is used to display any web page within web page.
+    - one can use target for iframe , so after clicking link that web page will be shown in iframe
+
+Meta
+    - this element is used to specify the character set, page description, keywords, author of the document, and viewport settings
+        -> Define the character set used:
+            <meta charset="UTF-8">
+        -> Define keywords for search engines:
+            <meta name="keywords" content="HTML, CSS, JavaScript">
+        -> Define a description of your web page:
+            <meta name="description" content="Free Web tutorials">
+        -> Define the author of a page:
+            <meta name="author" content="John Doe">
+        -> Refresh document every 30 seconds:
+            <meta http-equiv="refresh" content="30">
+        -> Setting the viewport to make your website look good on all devices:
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+head
+    - in head there can be these elements:
+        -> title
+        -> meta
+        -> script
+        -> style
+        -> link
+        -> base
+
+base
+    - base tag is used to give any base path url or target for all relative url in page
+
+Layout
+    - <header>  -> Defines a header for a document or a section
+    - <nav>     -> Defines a set of navigation links
+    - <section> -> Defines a section in a document
+    - <article> -> Defines an independent, self-contained content
+    - <aside>   -> Defines content aside from the content (like a sidebar)
+    - <footer>  -> Defines a footer for a document or a section
+    - <details> -> Defines additional details that the user can open and close on demand
+    - <summary> -> Defines a heading for the <details> element
+
+Responsive web page
+    - for image set css width to 100% , that will show image full width to respective device screen width
+    - to set image to its full width , so even for big screen it will show upto its full width only , for small screen it will adjust width
+      in css style set max-width to 100%
+    - to make Responsive font, set font size in viewport width (vw, 1vw is 1% of viewport width)
+    
+Media Queries
+    - it is used to set max width, and after that width or smaller the layout will be changed
+

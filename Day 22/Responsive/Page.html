@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebPage</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .sec_1 {
+      text-align: center;
+      background-color: #05386b;
+      color: #97cbff;
+    }
+    
+    .left {
+      float: left;
+      width: 20%;
+      text-align: center;
+    }
+    
+    .left a {
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      padding: 5px;
+      margin-top: 5px;
+      background-color: #379683;
+      color: #baeee4;
+    }
+    
+    .mid {
+      float: left;
+      width: 60%;
+      padding: 0 20px;
+      color: #152e1e;
+    }
+    
+    .right {
+      float: left;
+      width: 20%;
+      background-color: #379683;
+      color: #baeee4;
+      text-align: center;
+    }
+    
+    .sec_3 {
+      text-align: center;
+      background-color: #05386b;
+      color: #97cbff;
+    }
+    
+    @media screen and (max-width: 620px) {
+      .left,
+      .mid,
+      .right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sec_1">
+    <h1>W3 School</h1>
+  </div>
+  <div style="overflow:auto">
+    <div class="left">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JAVA</a>
+      <a href="#">RUBY</a>
+      <a href="#">JAVASCRIPT</a>
+    </div>
+    <div class="mid">
+      <h3>What is W3Schools?</h3>
+      <p>We create simplified and interactive learning experiences.</p>
+      <p>Learning web development should be easy to understand and available for everyone, everywhere!</p>
+    </div>
+    <div class="right">
+      <h3>ABOUT</h3>
+      <p style="padding: 10px;">The largest web developer site on the internet. 3 billion pages displayed each year. 60 million visitors each month.</p>
+    </div>
+  </div>
+  <div class="sec_3">
+    <h5>© Copyright 1999-2022 by Refsnes Data. All Rights Reserved.<br>W3Schools is Powered by W3.CSS.</h5>
+  </div>
+</body>
+
+</html>

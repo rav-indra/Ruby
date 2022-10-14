@@ -1,0 +1,13 @@
+14 October,2022
+
+- 
+
+Weekly Summary[10/10 to 14/10]
+
+This week I have worked on following topics:
+- Practiced Ruby questions on LeetCode
+- HTML basics and syntax
+- HTML all basic elements : anchor, image, paragraph, link, , inline css style(font-family,size,color,background-color,align)
+- html formatting , image map and area, table, list, block and inline, class and id
+- html iframe, meta, layout, 
+- css style : color, background color, font, border, media queries
