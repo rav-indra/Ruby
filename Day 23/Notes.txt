@@ -1,0 +1,79 @@
+17 October,2022
+
+Semantic Elements:
+    - Semantic Elements are those elements that describes its meaning to both the browser and the developer.
+    - like header,footer,article,aside,section,etc...
+      1) <section>
+      -> It defines a section in a document
+      -> section element can be used in Chapters, Introduction, News items, Contact information
+
+      2) <article>
+      -> this element specifies independent, self-contained content
+      -> article element can be used for Forum posts, Blog posts, User comments, Product cards, Newspaper articles
+
+      3) <header>
+      -> it represents a container for introductory content or a set of navigational links.
+      -> header element contains one or more heading elements, logo or icon , authorship information
+      -> one HTML document can have several header elements ,nut header can not be placed within foorter, address, or another header element
+
+      4) <footer>
+      -> it defines a footer for document
+      -> footer contains authorship information, copyright information, Contact information, sitemap, back to top links, related documents
+
+      5) <nav>
+      -> defines set of navigation links(not all but most major block of navigation links)
+
+      6) <aside>
+      -> that defines content aside from the content it is placed in (like slidebar)
+      -> its content should be indirectly related to surrounding content
+
+      7) <figure> and <figcaption>
+      -> <figure> tag specifies self-contained content,like illustration , diagrams, photos, code listings, etc
+      -> The <figcaption> tag defines a caption for a <figure> element. The <figcaption> element can be placed as the first or as the last child of a <figure> element
+
+Form
+    - In form action attribute defines the action to be performed when the form is submitted
+    - there can be method "get" that will show input data in url after submitting but "post" method will not show input data 
+    - autocomplete= "on/off" is used to autocomplete the form with before submitted data stored in browser 
+    - novalidate will inform form that if the input data should be validate or not
+    - Form elements :-
+      ➣ <input>    : - used for getting user input 
+                     - these are input types -> text, button, checkbox, radio, submit, password, color, date, etc...
+      ➣ <label>    : - it defines label for form elements
+                     - The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) 
+                       because when the user clicks the text within the <label> element, it toggles the radio button/checkbox
+                     - The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together
+      ➣ <select>   : - it defines dropdown menu where <option> tag used for option that can be selected from dropdown menu
+                     - to define preselected option use "selected" attribute in that option
+                     - size can be used to show number of vision value
+                     - using 'multiple' user can select multiple options from select
+      ➣ <option>   : - it is used in select for option of dropdown
+      ➣ <textarea> : - it defines multiline input field for text
+      ➣ <button>   : - it defines clickable button
+      ➣ <fieldset> : - it is used to group related data in from 
+      ➣ <legend>   : - to name that related data group in fieldset
+      ➣ <datalist> : - this  element specifies a list of pre-defined options for an <input> element
+                     - it is almost same as select element, just here one can write the option to find if the dropdown menu has that option
+      ➣ <output>   : - it represents the result of a calculation
+      ➣ <optgroup> : - it will group option from dropdown with any specific title
+    
+    - Input Restrictions
+      ➣ checked	    : Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
+      ➣ disabled    :	Specifies that an input field should be disabled
+      ➣ max	        : Specifies the maximum value for an input field
+      ➣ maxlength  	: Specifies the maximum number of character for an input field
+      ➣ min	        : Specifies the minimum value for an input field
+      ➣ pattern	    : Specifies a regular expression to check the input value against
+      ➣ readonly	  : Specifies that an input field is read only (cannot be changed)
+      ➣ required	  : Specifies that an input field is required (must be filled out)
+      ➣ size	      : Specifies the width (in characters) of an input field
+      ➣ step	      : Specifies the legal number intervals for an input field
+      ➣ value	      : Specifies the default value for an input field
+
+    Form attributes :
+      ➣ id             : it will work as id for form and any input ouside form can also be part of form with
+                         form="form_id_name"
+      ➣ formaction     : formaction is works with image and submit and behaves same as action , but it will override 
+                         the form action 
+      ➣ formnovalidate : it will validate any invalid input
+      ➣ formencrypte   : it will encrypte the form inputs

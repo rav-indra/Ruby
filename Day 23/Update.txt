@@ -1,0 +1,9 @@
+17 October,2022
+
+- HTML web page responsive
+- HTML form
+- sementic elements : section, article, aside, header, nav, footer, figure, figcaption
+- Form elements : input, label, select, option, textarea, button, fieldset, legend, datalist, optgroup
+- Input types : text, radio, checkbox, email, password, submit, reset, color, date, datetime-local, time,
+  number, tel, range
+- Input Restrictions : checked, disabled, min, max, maxlength, pattern, readonly, required, size
