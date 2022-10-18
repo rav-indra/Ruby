@@ -71,7 +71,7 @@
         <input type="email" name="email" id="email" placeholder="email id" class="inpt"><br>
 
         <label for="phone" class="heading">Contact Number:</label><br>
-        <input type="number" name="phone number" id="phone" class="inpt" placeholder="contact number"><br>
+        <input type="text" name="phone number" id="phone" class="inpt" pattern="[0-9]{10}" placeholder="contact number"><br>
 
         <p class="gndr">Gender:</p>
         <input type="radio" name="gender" id="male" value="male">
@@ -103,7 +103,7 @@
         <input type="checkbox" name="optional" id="optional" value="iot">Internet of Things <br>
 
         <label for="pswd" class="heading">Password:</label><br>
-        <input type="password" name="password" id="pswd" placeholder="password" class="inpt"><br>
+        <input type="password" name="password" id="pswd" placeholder="password" class="inpt" minlength="8"><br>
 
         <input type="reset" name="reset" id="reset" class="btn">
         <input type="submit" name="submit" id="submit" class="btn">
