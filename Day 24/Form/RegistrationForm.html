@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+  <title>Registration Form</title>
+  <style>
+    body {
+      background-image: url(./pexels-rovenimagescom-949587.jpg);
+      background-size: 100vw;
+    }
+    
+    .frm {
+      background: linear-gradient( #3f87a685, #ebf8e1ea, #f69c3ca6);
+      border-radius: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .heading {
+      font-weight: 600;
+    }
+    
+    .inpt {
+      border-radius: 10px;
+      border: 1px solid rgb(117, 114, 114);
+      margin-bottom: 5px;
+    }
+    
+    .gndr {
+      font-weight: 600;
+      margin-top: 5px;
+      margin-bottom: 1px;
+    }
+    
+    .btn {
+      font-weight: 600;
+      margin-top: 10px;
+      margin-right: 5px;
+      background-color: #628b9cc7;
+      color: #ffffff;
+      padding: 3px 20px;
+      border-radius: 10px;
+      border: 0.5px solid gray;
+    }
+    
+    .btn:hover {
+      background-color: #ebf8e1;
+      color: #3f87a6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="frm">
+    <form action="">
+      <fieldset style="border-radius: 10px;">
+        <legend style="text-align: center;">Registration Form</legend>
+
+        <label class="heading" for="fname">First Name:</label><br>
+        <input type="text" name="fname" id="fname" placeholder="first name" class="inpt" autofocus><br>
+
+        <label class="heading" for="lname">Last Name:</label><br>
+        <input type="text" name="lname" id="lname" placeholder="last name" class="inpt"><br>
+
+        <label class="heading" for="email">Email Id:</label><br>
+        <input type="email" name="email" id="email" placeholder="email id" class="inpt"><br>
+
+        <label for="phone" class="heading">Contact Number:</label><br>
+        <input type="number" name="phone number" id="phone" class="inpt" placeholder="contact number"><br>
+
+        <p class="gndr">Gender:</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="male">Female</label><br>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label><br>
+
+        <label class="heading" for="address">Address:</label><br>
+        <textarea name="address" id="address" cols="20" rows="5" placeholder="enter your address..." class="inpt"></textarea><br>
+
+        <label class="heading" for="course">Course:</label>
+        <select name="course" id="course" class="inpt">
+          <option value="none">Select Course</option>
+          <option value="computer">Computer</option>
+          <option value="it">IT</option>
+          <option value="electrical">Electrical</option>
+          <option value="civil">Civil</option>
+          <option value="automobile">Automobile</option>
+          <option value="mechanical">Mechanical</option>
+        </select><br>
+
+        <label class="heading" for="optional">Extra Subjects(select atleast one):</label><br>
+        <input type="checkbox" name="optional" id="optional" value="image processing">Image Processing <br>
+        <input type="checkbox" name="optional" id="optional" value="ai">Artificial Intelligence <br>
+        <input type="checkbox" name="optional" id="optional" value="robotics">Robotics <br>
+        <input type="checkbox" name="optional" id="optional" value="cloud computing">Cloud Computing <br>
+        <input type="checkbox" name="optional" id="optional" value="iot">Internet of Things <br>
+
+        <label for="pswd" class="heading">Password:</label><br>
+        <input type="password" name="password" id="pswd" placeholder="password" class="inpt"><br>
+
+        <input type="reset" name="reset" id="reset" class="btn">
+        <input type="submit" name="submit" id="submit" class="btn">
+
+      </fieldset>
+    </form>
+  </div>
+</body>
+</body>
+
+</html>
