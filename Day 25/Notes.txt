@@ -1,2 +1,6 @@
 19 October,2022
 
+Frameset
+    - it is used to divide screen between different frames
+    - here each frame can have different web page
+
