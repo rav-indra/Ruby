@@ -1,2 +1,9 @@
 19 October,2022
 
+- HTML frameset and frames
+- HTML-CSS meassurement units : 
+  1) Absolute : (cm, in, px, pt, pc, mm, Q)
+  2) Relative : (em, rem, vh, vw, ex, lh, rlh, vmin, vmax, percentage(%))
+- all background-properties vs background
+- Practiced HTML Form
+- Practiced HTML Table

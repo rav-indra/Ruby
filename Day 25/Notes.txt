@@ -4,3 +4,40 @@ Frameset
     - it is used to divide screen between different frames
     - here each frame can have different web page
 
+Background and Background-color(other properties too)
+    - Background-color is just one css property of Background and there are other properties too for Background
+    - meanwhile Background is all in one property for Background
+    - Background property will override any thoer Background properties
+    - for example if in css there are two properties defined for Background
+            p {
+                background : red;
+            }
+            p {
+                background-color: yellow;
+            }
+        here p with background property will be in priority, thus background-color
+        will be red for that paragraph.
+
+HTML-CSS meassurement units
+    Absolute length : these type of length are alway same 
+        - cm    : it is as we know how much is centimeter is
+        - mm    : 1 mm = 1/10 cm
+        - Q     : 1 Q = 1/40 cm
+        - in    : 1 inch = 2.54 cm (96 px)
+        - pc    : 1 picas = 1/6 inch 
+        - pt    : 1 points = 1/72 inch
+        - px    : 1 pixel = 1/96 inch
+    
+    Relative length : these type of length are relative to size of parent element's font or the size of viewport , and varies with screen size
+        - em    : font size of parent element(for Ex , in list is parent element is sized 10 px and child are sized 1.5 em , every child will be chenging size)
+        - ex    : x-height of the element's font
+        - rem   : font size of root element(if size fixed in html , then all rem with 1rem will be same sized)
+        - lh    : line height of element
+        - rlh   : line height of root element
+        - vw    : 1% of the viewport's width
+        - vh    : 1% of the viewport's height
+        - vmin	: 1% of the viewport's smaller dimension.
+    	- vmax  : 1% of the viewport's larger dimension.
+
+    - percentage(%) : it depends on parent size
+                      if parent width is 200px , and child width = 10% = 20px 

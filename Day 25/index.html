@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background</title>
+  <style>
+    body {
+      background: silver;
+    }
+    
+    div {
+      font-size: 20px;
+    }
+    /* same size as div */
+    /* .dv {
+      font-size: 1em;
+    } */
+    
+    .dv {
+      /* double the size of div */
+      font-size: 2em;
+    }
+    
+    p,
+    .dv {
+      background: url(./pexels-lumn-167699.jpg);
+    }
+    
+    .vw {
+      font-size: 4vw;
+    }
+    
+    .vh {
+      font-size: 4vh;
+    }
+    
+    p,
+    .dv {
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>this is paragraph tag</p>
+    <div class="dv">this is div tag</div>
+    <p class="vw">this will be of relative font size of view width</p>
+    <p class="vh">this will be of relative font size of view height</p>
+  </div>
+</body>
+
+</html>
