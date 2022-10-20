@@ -1,2 +1,8 @@
 20 October,2022
 
+- Revised HTML elements
+- Task to Create form that include :
+    - two different sections according to details
+    - radio, checkbox, email, phone number(only number with given pattern), date
+    - upload file, password, url, multiline text input(textare), dropdown, colour, username(no special characters), 
+- iframe
