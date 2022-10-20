@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    fieldset {
+      border-radius: 10px;
+      background: #f4f7f8;
+      margin-bottom: 10px;
+    }
+    
+    label {
+      font-size: large;
+    }
+    
+    body {
+      font-family: sans-serif;
+      color: #384047;
+    }
+    
+    form {
+      margin: 10px auto;
+      max-width: 400px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[list="countries"],
+    input[type="date"],
+    select,
+    datalist,
+    textarea {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px dashed grey;
+    }
+    
+    legend {
+      font-size: larger;
+      text-align: center;
+    }
+    
+    .btn-box {
+      align-items: center;
+      display: grid;
+    }
+    
+    .btn {
+      font-size: 18px;
+      text-align: center;
+      border-radius: 10px;
+      width: 40%;
+      margin: 10px auto;
+      background: #f4f7f8;
+      color: #384047;
+    }
+    
+    .btn:hover {
+      color: #f4f7f8;
+      background: #384047;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+
+      <legend>Persional Details</legend>
+
+      <label for="name">Name:</label><br>
+      <input type="text" name="name" id="name" placeholder="your full name..." autofocus><br>
+
+      <br><label for="uname">Username:</label><br>
+      <input type="text" name="username" id="uname" placeholder="no special characters..." pattern="[a-zA-Z0-9]+"><br>
+
+      <br><label for="bdate">Birthdate:</label><br>
+      <input type="date" name="birthdate" id="bdate"><br>
+
+      <br><label for="">Gender:</label><br>
+      <input type="radio" name="gender" id="male" checked>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label><br>
+
+
+      <br><label for="">Country:</label><br>
+      <input list="countries" name="country" id="country" placeholder="select country">
+      <datalist id="countries">
+        <option value="Afghanistan" />
+        <option value="India" />
+        <option value="USA" />
+        <option value="Japan" />
+        <option value="China" />
+        <option value="Canada" />
+        <option value="Srilanka" />
+        <option value="England" />
+      </datalist><br>
+
+      <br><label for="">Favourite Colour:</label>
+      <input type="color" name="fav_color" id="fav_color"><br>
+
+    </fieldset>
+
+    <fieldset>
+
+      <legend>Professional Details</legend>
+
+      <label for="">Job Role:</label><br>
+      <select name="job_title" id="job">
+      <optgroup label="Web">
+        <option value="frontend_developer">Front-End Developer</option>
+        <option value="php_developer">PHP Developer</option>
+        <option value="python_developer">Python Developer</option>
+        <option value="rails_developer" selected>Rails Developer</option>
+        <option value="web_designer">Web Designer</option>
+        <option value="wordpress_developer">Wordpress Developer</option>
+      </optgroup>
+      <optgroup label="Mobile">
+        <option value="android_developer">Android Developer</option>
+        <option value="ios_developer">IOS Developer</option>
+        <option value="mobile_designer">Mobile Designer</option>
+      </optgroup>
+    </select><br>
+
+      <br><label for="">Experience:</label><br>
+      <textarea name="experience" id="exp" rows="5" rows="5" placeholder="your experience in tech..."></textarea><br>
+
+      <br><label for="">Interested(select atleast one):</label><br>
+      <input type="checkbox" name="interest1" id="ip" value="image processing">Image Processing <br>
+      <input type="checkbox" name="interest2" id="ai" value="ai">Artificial Intelligence <br>
+      <input type="checkbox" name="interest3" id="robot" value="robotics">Robotics <br>
+      <input type="checkbox" name="interest4" id="clc" value="cloud computing">Cloud Computing <br>
+      <input type="checkbox" name="interest5" id="iot" value="iot">Internet of Things <br>
+
+      <br><label for="mail">Email Id:</label><br>
+      <input type="email" name="email" id="mail" placeholder="your email id"><br>
+
+      <br><label for="phone">Contact Number:</label><br>
+      <input type="text" name="phone number" id="phone" class="inpt" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-123-1234"><br>
+
+      <br><label for="">Password:</label><br>
+      <input type="password" name="password" id="pswd" placeholder="password" minlength="8"><br>
+
+      <br><label for="">Linkdin/Github:</label><br>
+      <input type="url" name="website" id="website" placeholder="internet profile website"><br>
+
+      <br><label for="photo">Upload Passport size Photo:</label><br>
+      <input type="file" name="photo" id="photo"><br>
+
+    </fieldset>
+
+    <div class="btn-box">
+      <input type="reset" value="Reset" class="btn">
+      <input type="submit" value="Submit" class="btn">
+    </div>
+  </form>
+  <iframe src="https://www.youtube.com/channel/UCh1_ijJMK1jt-ZeEGoQs2Qw/about" frameborder="1" name="ifrm" height="200px" width="500px"></iframe>
+</body>
+
+</html>
