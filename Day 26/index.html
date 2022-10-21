@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
+
   <style>
     fieldset {
       border-radius: 10px;
@@ -113,7 +114,7 @@
       <legend>Professional Details</legend>
 
       <label for="">Job Role:</label><br>
-      <select name="job_title" id="job">
+      <select name="job_title" id="job" multiple>
       <optgroup label="Web">
         <option value="frontend_developer">Front-End Developer</option>
         <option value="php_developer">PHP Developer</option>
@@ -133,10 +134,10 @@
       <textarea name="experience" id="exp" rows="5" rows="5" placeholder="your experience in tech..."></textarea><br>
 
       <br><label for="">Interested(select atleast one):</label><br>
-      <input type="checkbox" name="interest1" id="ip" value="image processing">Image Processing <br>
-      <input type="checkbox" name="interest2" id="ai" value="ai">Artificial Intelligence <br>
-      <input type="checkbox" name="interest3" id="robot" value="robotics">Robotics <br>
-      <input type="checkbox" name="interest4" id="clc" value="cloud computing">Cloud Computing <br>
+      <input type="checkbox" name="interest1" id="ip" value="image processing"> <label for="ip"> Image Processing</label> <br>
+      <input type="checkbox" name="interest2" id="ai" value="ai"> <label for="ai">Artificial Intelligence </label> <br>
+      <input type="checkbox" name="interest3" id="robot" value="robotics"> <label for="robot">Robotics</label> <br>
+      <input type="checkbox" name="interest4" id="clc" value="cloud computing"> <label for="clc">Cloud Computing</label> <br>
       <input type="checkbox" name="interest5" id="iot" value="iot">Internet of Things <br>
 
       <br><label for="mail">Email Id:</label><br>
@@ -161,7 +162,7 @@
       <input type="submit" value="Submit" class="btn">
     </div>
   </form>
-  <iframe src="https://www.youtube.com/channel/UCh1_ijJMK1jt-ZeEGoQs2Qw/about" frameborder="1" name="ifrm" height="200px" width="500px"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rXwH2IpnVqY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 
 </html>
