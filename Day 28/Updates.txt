@@ -7,4 +7,4 @@
 - CSS background       : image, color, attachment, position, size, repeat
 - CSS border style     : none, hidden, solid, dotted, dashed, double, groove, inset, outset, ridge
 - CSS border           : width, color, radius, tob-right-bottom-left, shorthand
-- CSS margin, padding , box-sizing, height, width, max-height, max-width, box model
+- CSS margin, padding, height, width, max-height, max-width, box model
