@@ -1,0 +1,10 @@
+01 November,2022
+
+- Using CSS in HTML
+- Three way to use css : inline, internal and external
+- CSS selectors and specificity
+- CSS property inheritance 
+- CSS background       : image, color, attachment, position, size, repeat
+- CSS border style     : none, hidden, solid, dotted, dashed, double, groove, inset, outset, ridge
+- CSS border           : width, color, radius, tob-right-bottom-left, shorthand
+- CSS margin, padding , box-sizing, height, width, max-height, max-width, box model

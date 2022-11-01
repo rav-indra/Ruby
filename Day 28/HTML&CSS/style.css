@@ -1,0 +1,50 @@
+body {
+  background-color: pink;
+}
+
+body {
+  font: 1em/150% Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+@media (min-width: 500px) {
+  /* Increase the global font size on larger screens or windows
+     for better readability */
+  body {
+    font-size: 150%;
+    background-image: linear-gradient(to right bottom, rgb(243, 63, 63), rgb(0, 195, 255));
+  }
+}
+
+.special {
+  background-image: linear-gradient(to right bottom, #bbd2c5, #536976, #292e49);
+  color: rgb(0, 67, 250);
+  font-weight: bold;
+}
+
+h2 {
+  background-image: radial-gradient(rgb(0, 153, 255), rgb(251, 255, 0));
+  text-align: center;
+  padding: 20px;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+
+/* will be in red color as parent */
+
+
+/* li {
+  color: inherit;
+} */
+
+
+/* will be in black color */
+
+li {
+  color: initial;
+}

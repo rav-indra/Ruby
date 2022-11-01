@@ -1,0 +1,43 @@
+p {
+  border-color: 5px black;
+}
+
+.b1 {
+  border: none;
+}
+
+.b2 {
+  border: dashed;
+}
+
+.b3 {
+  border: dotted;
+}
+
+.b4 {
+  border: solid;
+}
+
+.b5 {
+  border: groove;
+}
+
+.b6 {
+  border: ridge;
+}
+
+.b7 {
+  border: inset;
+}
+
+.b8 {
+  border: outset;
+}
+
+.b9 {
+  border: hidden;
+}
+
+.b10 {
+  border: double;
+}
