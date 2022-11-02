@@ -1,0 +1,36 @@
+h1 {
+  color: slateblue;
+}
+
+p {
+  width: 400px;
+}
+
+a {
+  border-radius: 20px;
+  padding: 6px 20px;
+  background-color: azure;
+  box-shadow: 1px 1px 4px rgb(53, 53, 53);
+}
+
+a:link {
+  color: rgb(39, 128, 206);
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.89);
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:active {
+  background-color: tomato;
+  color: rgb(255, 255, 255);
+  cursor: progress;
+}
+
+a:visited {
+  background-color: brown;
+  color: rgb(255, 255, 255);
+}

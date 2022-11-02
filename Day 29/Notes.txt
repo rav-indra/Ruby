@@ -1,0 +1,51 @@
+02 November,2022
+
+CSS outline
+  - Outlines are lines that are drawn outside borders
+  - Outline properties are 
+    1. outline-style
+    2. outline-color
+    3. outline-width
+    4. outline-offset : here outline-offset adds transparent space between line and border
+    5. outline
+
+CSS Text
+  - text- color
+  - text alignment
+    -> text-align                 : left,right,center
+    -> text-align(justify)        : each line is stretched so that every line has equal width, and the left and right margins are straight
+    -> text-align-last            : to allign last line of text
+    -> direction                  : to set directionn of text (ltr) or (rtl)
+    -> unicode-bidi               : Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+    -> vertical-align             : Sets the vertical alignment of an element (baseline, text-top, text-bottom, sub, super)
+  - text decoration
+    -> text-decoration-line       : to add decoration lines(overline, underline, line-through)
+    -> text-decoration-color      : to give color to line
+    -> text-decoration-style      : to give style to line
+    -> text-decoration-thickness  : to give thickness to line
+    -> text-tranform              : uppercase, lowercase, capitalize
+  - text spacing
+    -> text-indent                : to give blank space in startin of first line (if value negative line would not have extra blank but will have negative space)
+    -> letter-spacing             : to specify the space between the characters in a text
+    -> word-spacing               : space between words
+    -> line-height                : the space between lines
+    -> white-space                : to handle white spaces inside element(if don't want to wrap lines , use nowrap)
+  - text shadow
+    -> text-shadow                : to add shadow to text
+
+CSS Font
+  - font-family   : to specifie font text 
+  - font-style    : to style font (oblique, italic, normal)
+  - font-weight   : to specifie weight of font
+  - font-variant  : specifies whether or not a text should be displayed in a small-caps font
+  - font-size     : to specifie font size
+  - font-size responsive
+
+CSS icons
+  - <script src="https://kit.fontawesome.com/9e82895f79.js" crossorigin="anonymous"></script>
+
+CSS Links
+  - link          : for all links
+  - hover         : while hover on link
+  - active        : while clicking
+  - visited       : once visited link

@@ -1,0 +1,28 @@
+p {
+  outline: dotted rgb(68, 170, 170);
+}
+
+p.w1 {
+  outline-width: 2px;
+}
+
+p.w2 {
+  outline-width: 5px;
+}
+
+p.red {
+  outline-color: red;
+}
+
+p.oset {
+  border: solid blue 1px;
+  outline-offset: 5px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+i {
+  color: red;
+  text-decoration: double;
+}

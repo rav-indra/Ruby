@@ -1,0 +1,74 @@
+p.left,
+p.right,
+p.center,
+p.justify,
+p.spc {
+  box-sizing: border-box;
+  display: flex;
+  margin: 1px;
+  float: left;
+  border: 2px black solid;
+  width: 200px;
+}
+
+p.left {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: red;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+p.right {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+p.center {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+  text-align: center;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-transform: uppercase;
+}
+
+p.justify {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkslategray;
+  text-align: justify;
+  text-align-last: center;
+}
+
+em {
+  vertical-align: text-bottom;
+  color: rgb(35, 88, 31);
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(238, 20, 13);
+  text-decoration-style: double;
+}
+
+b {
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+  text-decoration-color: aquamarine;
+}
+
+p.spc {
+  white-space: nowrap;
+}
+
+.demo1 {
+  text-shadow: 1px 1px 5px rgb(0, 255, 128);
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.demo2 {
+  font-size: 5vw;
+  font-style: oblique;
+  font-weight: lighter;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}

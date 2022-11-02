@@ -1,0 +1,25 @@
+h1 {
+  font-family: 'Playfair Display', Serif;
+  text-align: center;
+  background: linear-gradient(-45deg, #405de6, #5851db, #833ab4, #c13584, #e1358c, #fd1d1d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Source Sans Pro', Sans-Serif;
+}
+
+.fa-brands {
+  color: aliceblue;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1358c, #fd1d1d);
+  border-radius: 10px;
+  padding: 0px 2px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
