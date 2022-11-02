@@ -1,0 +1,13 @@
+.default li {
+  display: inline;
+}
+
+.default li:hover {
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#nav {
+  display: none;
+}

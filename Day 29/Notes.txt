@@ -10,7 +10,7 @@ CSS outline
     5. outline
 
 CSS Text
-  - text- color
+  - text color
   - text alignment
     -> text-align                 : left,right,center
     -> text-align(justify)        : each line is stretched so that every line has equal width, and the left and right margins are straight
@@ -49,3 +49,25 @@ CSS Links
   - hover         : while hover on link
   - active        : while clicking
   - visited       : once visited link
+
+CSS List
+  - list-style-type       : different type of list markers(circle, disk, square, upper(lower)-alpha(roman))
+  - list-style-image      : to set image as list marker
+  - list-style-position   : to specifie position of the list-item markers(inside(bullet points will be inside the list item) and outside(bullet points will be outside the list item))
+
+CSS Table
+  - border
+  - alignment
+  - size
+  - style         : can use(:hover, tr(th,td):nth-child(even/odd){})
+  - style         : overflow-x/y :auto
+  - table-layout	: Sets the layout algorithm to be used for a table
+
+CSS Layout
+  - display
+    -> none       : to hide the content
+    -> block      : display content as block
+    -> inline     : shows content side by side as in one line
+  - visibility
+    -> hidden
+    -> visible

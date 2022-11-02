@@ -5,7 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Lists</title>
+  <script>
+    function myFunction() {
+      document.getElementById("nav").style.display = "block";
+    }
+  </script>
 </head>
 
 <body>
@@ -18,11 +24,11 @@
     <li>Item 6</li>
     <li>Item 7</li>
     <li>Item 8</li>
-  </ul>
+  </ul><br>
   <ul style="list-style-type: square;">
     <li>Item 1</li>
-    <li>Item 2</li>
-    <ul style="list-style-type: circle;">
+    <li onclick="myFunction()">Item 2(click to expand)</li>
+    <ul style="list-style-type: circle;" id="nav">
       <li>Data 1</li>
       <li>Data 2</li>
       <li>Data 3</li>
@@ -31,7 +37,7 @@
     <li>Item 4</li>
 
   </ul>
-  <ul class="nav">
+  <ul>
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
@@ -41,59 +47,6 @@
     <li>Item 7</li>
     <li>Item 8</li>
   </ul>
-  <br>
-  <br>
-  <ol>
-    <li>Ahmedabad</li>
-    <li>Vadodara</li>
-    <li>Rajkot</li>
-    <li>Surat</li>
-    <li>Kutch</li>
-    <li>Dwarka</li>
-  </ol>
-  <ol type="A">
-    <li>Ahmedabad</li>
-    <li>Vadodara</li>
-    <li>Rajkot</li>
-    <li>Surat</li>
-    <li>Kutch</li>
-    <li>Dwarka</li>
-  </ol>
-  <ol type="a" start="35">
-    <li>Ahmedabad</li>
-    <li>Vadodara</li>
-    <li>Rajkot</li>
-    <li>Surat</li>
-    <li>Kutch</li>
-    <li>Dwarka</li>
-  </ol>
-  <ol type="I">
-    <li>Ahmedabad</li>
-    <li>Vadodara</li>
-    <li>Rajkot</li>
-    <li>Surat</li>
-    <li>Kutch</li>
-    <li>Dwarka</li>
-  </ol>
-  <ol type="i" start="40">
-    <li>Ahmedabad</li>
-    <li>Vadodara</li>
-    <li>Rajkot</li>
-    <li>Surat</li>
-    <li>Kutch</li>
-    <li>Dwarka</li>
-  </ol>
-  <dl>
-    <dt>Ahmedabad</dt>
-    <dd>- Odhav</dd>
-    <dd>- Vastral</dd>
-    <dd>- Nikol</dd>
-    <dd>- Naroda</dd>
-    <dt>Surendranagar</dt>
-    <dd>- Limbdi</dd>
-    <dd>- Dhandhuka</dd>
-    <dd>- Chotila</dd>
-  </dl>
 </body>
 
 </html>

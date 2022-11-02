@@ -1,2 +1,12 @@
 02 November,2022
 
+- css outline and properties ,css icons
+- css text (alignment, color, direction, unicode-bidi)
+- css text decoration (line, color, style, thickness, transform)
+- css text spacing (text-indent, letter-spacing, word-spacing, line-height, white-space)
+- css text shadow
+- css font (family, style, weight, variant, size)
+- css link (link, hover, active, visited)
+- css list (style-type, style-image, style-position(inside/outside))
+- css table (border, alignment, size, overflow, layout)
+- css layout (display(none, inline, block), visibility(hidden, visible))
