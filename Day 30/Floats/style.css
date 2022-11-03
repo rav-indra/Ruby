@@ -1,0 +1,23 @@
+.container {
+  width: 500px;
+  height: 200px;
+  border: black solid 5px;
+  float: left;
+}
+
+.left {
+  border: blue dotted;
+  float: left;
+}
+
+.right {
+  border: rgb(255, 0, 0) dashed;
+  float: right;
+  clear: both;
+}
+
+.inherit {
+  border: rgb(22, 100, 15) double;
+  float: inherit;
+  clear: both;
+}

@@ -1,0 +1,36 @@
+div.sec1 {
+  border: 3px solid #73AD21;
+  position: static;
+  background-color: #b5ce92;
+}
+
+.sec2 {
+  left: 30px;
+  position: relative;
+  border: 3px solid #464745;
+  background-color: #767774;
+}
+
+.sec3 {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  border: 3px solid #ad4921;
+  background-color: #b46b4e;
+  z-index: -1;
+}
+
+.sec4 {
+  border: 3px solid #21adad;
+  background-color: #78c2c2;
+  position: absolute;
+}
+
+.sec5 {
+  border: 3px solid #ad9f21;
+  background-color: #d4c751;
+  position: -webkit-sticky;
+  top: 5px;
+  position: sticky;
+  z-index: 1;
+}

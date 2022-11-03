@@ -1,0 +1,54 @@
+03 November,2022
+
+CSS Hierarchy
+  - inline style css has higher specificity than all others
+  - after inline style id has higher specificity
+  - class , pseudoclass, atributes after id
+  - than elements and pseudoelements
+  - (inline style) >> (id) >> (class, pseudo class, attribute) >> (elements, pseudoelements)
+
+Position
+  - static    : by default static 
+  - relative  : change accoring to given istruction
+  - fixed     : stick to given position doesn't change while scrolling
+  - absolute  : used as fixed in another container
+  - sticky    : it will fix the content on screen while scrolling (use top, right, bottom, left)
+
+z-index 
+  - it sets stack oreder of element
+  - it can have positive or negative values
+
+Overflow
+  - it helps when content is too big from caontainer 
+  - auto      : it will add scroll bar for extra content(horizontal/vertical/both)
+  - scroll    : will add scroll both
+  - hidden    : it will hode overflowed content causing loss of data
+  - visible   : it will showw overflowed content outside of container if it doesn't fit in
+  - overflow-wrap : it will break the word if it is too long (break-word, anywhere)
+
+CSS Float
+  - it specifie how element should float ,and positioning content
+  - left, right, none(default), inherit(inherits the float value of its parent)
+
+CSS float-clear
+  - clear         : it is used to specifie what to do of next element after float
+  - claer(right)  : pushed below right floated elements
+  - claer(left)   : pushed below left floated elements
+  - claer(both)   : pushed below both left and right floated elements
+  - clear(none)   : element doesn't pushed below floated element
+  - clear(inherit): inherits the clear value from its parent
+
+CSS .clearfix 
+  - when floated element is bigger than content than it will overflow outside the container
+  - then .clearfix is used
+  - .clearfix {overflow : auto;}
+
+CSS Combinators
+  - it explains the relationship between the selectors
+  - descendant selector (space)   : to matches all elements that are descendants of a specified element (div p)
+  - child selector (>)            : to select an element that is childern of another specific element (div > p)
+  - adjacent sibling selector (+) : to select an element that is directly after another specific element (div + p)
+  - general sibling selector (~)  : to  selects all elements that are next siblings of a specified element (div ~ p)
+
+CSS pseudoclass
+  - pseudo-class is used to define a special state of an element
