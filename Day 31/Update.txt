@@ -1,0 +1,9 @@
+04 November,2022
+
+Weekly Summary [01/11/2022 to 04/11/2022]
+
+This week i have worked on folling tasks:
+  - Stared learing CSS and ways to apply css in HTML.
+  - Learned CSS properties
+  - CSS selectors(element selector , class selector, id selector, psuedo element and psuedo class selector, attribute selector)
+  - Learned CSS Hierarchy ((inline style) >> (id) >> (class, pseudo class, attribute) >> (elements, pseudoelements)) and CSS Combinators(space , > , + , ~)

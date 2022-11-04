@@ -13,5 +13,4 @@ def pingpong(arr , tf)
     puts "#{ar2}"
   end
 end
-
-pingpong(["ping","ping","ping"],"true")
+pingpong(["ping","ping"],"false")
