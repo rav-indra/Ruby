@@ -9,7 +9,7 @@ CSS Hierarchy
 
 Position
   - static    : by default static 
-  - relative  : change accoring to given istruction
+  - relative  : change according to given istruction
   - fixed     : stick to given position doesn't change while scrolling
   - absolute  : used as fixed in another container
   - sticky    : it will fix the content on screen while scrolling (use top, right, bottom, left)

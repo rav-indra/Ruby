@@ -1,0 +1,10 @@
+img {
+  height: auto;
+}
+
+.mask1 {
+  -webkit-mask-image: url(./3-2-umbrella-png-pic.png);
+  mask-image: url(./3-2-umbrella-png-pic.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
