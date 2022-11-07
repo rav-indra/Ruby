@@ -23,8 +23,8 @@ body {
 }
 
 .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 20%;
+  max-width: 20%;
   padding: 0 4px;
 }
 
@@ -44,14 +44,21 @@ img:hover {
   transform: scale(1.01);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1024px) {
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+@media screen and (max-width:768px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
   .column {
     flex: 100%;
     max-width: 100%;
