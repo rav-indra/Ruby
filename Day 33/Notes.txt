@@ -1,0 +1,58 @@
+08 November,2022
+
+JavaScript
+
+Ways to add JavaScript in HTML
+  - inline JS
+  - onpage JS
+  - CDN
+
+JavaScript vs JQuery
+  1. JavaScript is independent language and it exists its own
+     meanwhile JQuery is dependent on JS , and it was made for JavaScript, 
+     JQuery code has to be converted in JS to execute in browser
+  2. JavaScript uses more line of code for any task,
+     while JQuery is a library of predefined code and just need to be imported , so it will use less line of code
+  3. JS is written between <script></script> tags,
+     JQuery is imported from CDN or any lacation from PC where it is downloaded ,
+     it is also written between <script></script>
+  4. JS take too much space and JQuery take less space
+  5. JS is comparatively faster than JQuery as JS can be executed directly in browsers
+     But JQuery need to be converted to JS to execute in browser
+
+JavaScript-Output
+  - innerHTML           : to write into an HTML element
+  - document.write()    : to write into the HTML output(Using document.write() after an HTML document is loaded, will delete all existing HTML)
+  - window.alert()      : to write into an alert box
+  - console.log()       : to write into the browser console
+  - windows.print()     : to print content of browser through output device
+
+JS Operators
+  - Arithmetic Operators    : (+ , - , * , / , % , ** , ++ , --)
+  - Assignment Operators    : (= , += , -= , *= , /= , %= , **=)
+  - Comparison Operators    : (== , === , != , !== , > , < , >= , <=)
+  - Logical Operators       : (&& , || , !)
+  - Conditional Operators   : (? :)
+  - Type Operators          : (typeOf , instanceOf)
+  - Bitwise Operators       : (& , | , ~(not) , ^(XOR) , << , >> , >>>)
+
+Js Datatypes
+  - Number
+  - String
+  - Object
+  - Undefined
+  - Null
+
+JS Events
+  - onclick
+  - ondblclick
+  - onfocus
+  - onpointermove
+  - onpointerout
+  - onmouseover
+  - onmousewheel
+  - onpointerleave
+  - onkeypress
+  - onkeydown
+  - onkeyup
+  - onchange

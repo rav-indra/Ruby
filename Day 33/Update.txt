@@ -1,0 +1,10 @@
+08 November,2022
+
+- JavaScript Started
+- Way to add JavaScript in HTML 
+    1. Inline
+    2. Onpage
+    3. CDN
+- Difference between JavaScript and JQuery
+- JavaScript Operators
+- JavaScript Events

@@ -11,7 +11,7 @@ body {
   text-align: center;
   padding: 30px;
   font-family: 'Aclonica';
-  font-size: 22px;
+  font-size: 20px;
   color: #01041b;
   text-shadow: 2px 2px 5px white;
 }
@@ -28,6 +28,10 @@ body {
   padding: 0 4px;
 }
 
+.last {
+  display: block;
+}
+
 img {
   display: inline-block;
   border-radius: 5px;
@@ -41,13 +45,16 @@ img {
 img:hover {
   opacity: 1;
   box-shadow: 0px 2px 5px black, 0px 2px 10px rgba(0, 0, 0, 0.411);
-  transform: scale(1.01);
+  transform: scale(1.01) rotate(1deg);
 }
 
 @media screen and (max-width:1024px) {
   .column {
     flex: 25%;
     max-width: 25%;
+  }
+  .last {
+    display: none;
   }
 }
 
@@ -62,5 +69,8 @@ img:hover {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .last {
+    display: block;
   }
 }

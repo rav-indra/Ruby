@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operators JS</title>
+  <script>
+    let x = 5;
+    let y = 7;
+    let z = x + y;
+    console.log(z)
+    z **= 2
+    z **= 2
+    console.log(z)
+    z /= 12
+    console.log(z)
+    z /= 12
+    z++
+    console.log(z)
+  </script>
+</head>
+
+<body>
+  <p id="change">This is initial Text.</p>
+  <button onclick="document.getElementById('change').innerHTML = 'Now the Paragraph is changed'"> Reset Changes </button><br><br>
+  <button onclick="alert('This is Onclick')">On Click</button><br><br>
+  <button ondblclick="alert('This is on double click')">On Double Click</button><br><br>
+  <button onpointermove="alert('This is on pointer move')">pointer move</button><br><br>
+  <button onpointerout="alert('This is on pointer out')">pointer out</button><br><br>
+  <button onmouseover="alert('This is on mouse over')">Mouse over</button><br><br>
+  <button onmousewheel="alert('This is on mouse wheel')">Mouse Wheel</button><br><br>
+  <button onpointerleave="alert('This is pointer leave')">pointer leave</button><br><br>
+  <input type="text" onfocus="console.log('On Focus')" placeholder="on focus"><br><br>
+  <input type="text" onkeypress="console.log('Pressing Key')" placeholder="on key press"><br><br>
+  <input type="text" onkeydown="console.log('Key down')" placeholder="on key down"><br><br>
+  <input type="text" onkeyup="console.log('Key UP')" placeholder="on key Up"><br><br>
+  <input type="text" onchange="alert('Value changed')" placeholder="on key press"><br><br>
+</body>
+
+</html>
