@@ -36,13 +36,6 @@ JS Operators
   - Type Operators          : (typeOf , instanceOf)
   - Bitwise Operators       : (& , | , ~(not) , ^(XOR) , << , >> , >>>)
 
-Js Datatypes
-  - Number
-  - String
-  - Object
-  - Undefined
-  - Null
-
 JS Events
   - onclick
   - ondblclick

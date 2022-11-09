@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <title>Array</title>
+  <style>
+    body {
+      margin: 10px;
+    }
+  </style>
+  <script>
+    const cars = ["Tata", "BMW", "Mahindra", "Toyoto", "Kia", "Volvo", "Scoda", "Hondra", "Hundai"]
+    let n = cars.length
+    let text = "<ol>";
+    for (let i = 0; i < n; i++) {
+      text += "<li>" + cars[i] + "</li>";
+    }
+    text += "</ol>";
+
+    function show() {
+      document.getElementById("sow").innerHTML = text
+    }
+
+    function hide() {
+      document.getElementById("sow").innerHTML = "Cars"
+    }
+  </script>
+</head>
+
+<body>
+  <p>Show available Cars.</p>
+  <button onclick="show()">Show!</button>
+  <button onclick="hide()">Hide!</button><br><br>
+  <p id="sow">Cars</p>
+</body>
+
+</html>

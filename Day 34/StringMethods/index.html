@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Methods</title>
+  <script>
+    // show length of text
+    function length(st) {
+      document.getElementById("lngth").innerHTML = st.length
+    }
+    // show sub string
+    function substring(st) {
+      document.getElementById("sub").innerHTML = st.substr(14, 8)
+    }
+    // return after replaceing Ravindra
+    function change(st) {
+      document.getElementById("chng").innerHTML = st.replace("Ravindra", "Kalendra")
+    }
+    // in upper case
+    function upper(st) {
+      document.getElementById("upr").innerHTML = st.toUpperCase()
+    }
+    // in lower case
+    function lower(st) {
+      document.getElementById("lwr").innerHTML = st.toLowerCase()
+    }
+    // string to array
+    function arrayy(st) {
+      document.getElementById("arr").innerHTML = st.split(" ")
+    }
+  </script>
+</head>
+
+<body>
+  <p>Hello this is Ravindra</p>
+  <button onclick="length('Hello this is Ravindra')">Click!</button><br>
+  <p id="lngth">Length</p>
+
+  <button onclick="substring('Hello this is Ravindra')">Click!</button><br>
+  <p id="sub">Sun String</p>
+
+  <button onclick="change('Hello this is Ravindra')">Click!</button><br>
+  <p id="chng">Replace Ravindra</p>
+
+  <button onclick="upper('Hello this is Ravindra')">Click!</button><br>
+  <p id="upr">string in upper case</p>
+
+  <button onclick="lower('Hello this is Ravindra')">Click!</button><br>
+  <p id="lwr">string in lower case</p>
+
+  <button onclick="arrayy('Hello this is Ravindra')">Click!</button><br>
+  <p id="arr">To Array</p>
+</body>
+
+</html>

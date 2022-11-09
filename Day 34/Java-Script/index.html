@@ -9,7 +9,49 @@
 </head>
 
 <body>
+  <script>
+    console.log(1234e4)
+    console.log(typeof "") // string
+    console.log(typeof 12) // number
+    console.log(typeof true) // boolean
+    console.log(typeof []) // object
+    console.log(typeof abc) // undefined
+    console.log(typeof {}) // object
+    console.log(typeof abc / 4) // NaN
 
+    console.log(area(2))
+
+    function area(r) {
+      return 3.14 * r * r
+    }
+
+    let car = {
+      type: "Tata",
+      model: "Nano",
+      year: 2012,
+      color: "Yellow",
+      break: function() {
+        console.log("Breaks Applied!")
+      },
+      gear: function() {
+        console.log("Gear Shifted!")
+      },
+      start: function() {
+        console.log("Started Driving!")
+      },
+      carDetails: function() {
+        console.log("The car model is " + this.type + " " + this.model + " from year " + this.year + " with " + this.color + " Color!")
+      }
+    }
+    console.log(car.type)
+    console.log(car.model)
+    console.log(car.year)
+    console.log(car.color)
+    car.carDetails()
+    car.start()
+    car.gear()
+    car.break()
+  </script>
 </body>
 
 </html>

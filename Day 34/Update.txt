@@ -1,2 +1,14 @@
 09 November,2022
 
+- JavaScript Datatypes
+  -> Null
+  -> Undefined
+  -> Number
+  -> String(it should not be declared as object , it will create conflict)
+  -> Boolean
+  -> BigInt
+  -> Symbol
+  -> Object(can not be compared)
+- JS String Methods and string search methods
+- Numbers and number methods
+- JS Array and Array methods
