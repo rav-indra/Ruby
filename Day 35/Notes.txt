@@ -1,0 +1,83 @@
+10 November,2022
+
+Array Sorting
+  -> Compare Function
+    - in numnerical elements of array arr.sort() will not give expected result
+    - Thus Compare Function will be good for number sorting
+    - arr.sort(function(a,b){return a-b})
+      - here if a-b is negative than a < b so a will come before b
+      - if a-b is positive than a > b so a will come after b
+      - else there will be no change for equal
+    - this function is sort virsion of :-
+        arr.sort(function(a-b){
+          if(a > b){
+            return 1;
+          }
+          else if(a < b){
+            return -1;
+          }
+          else{
+            return 0;
+          }
+        });
+
+JQery
+  - start with
+    $(document).ready(function(){
+
+    });
+
+JQery Slectors
+  - $("element")            : to Select element
+  - $(".className")         : to Select by class name
+  - $("#idName")            : to Select by id name
+  - $("*")                	: Selects all elements	
+  - $(this)               	: Selects the current HTML element	
+  - $("p.intro")            : Selects all <p> elements with class="intro"	
+  - $("p:first")            :	Selects the first <p> element	
+  - $("ul li:first")        :	Selects the first <li> element of the first <ul>	
+  - $("ul li:first-child")  :	Selects the first <li> element of every <ul>	
+  - $("[href]")             :	Selects all elements with an href attribute	
+  - $("a[target='_blank']") :	Selects all <a> elements with a target attribute value equal to "_blank"	
+  - $("a[target!='_blank']"):	Selects all <a> elements with a target attribute value NOT equal to "_blank"	
+  - $(":button")            :	Selects all <button> elements and <input> elements of type="button"	
+  - $("tr:even")            :	Selects all even <tr> elements	
+  - $("tr:odd")             :	Selects all odd <tr> elements\
+
+JQery Events
+  1.  click()             : on click
+  2.  dblclick()          : on double click
+  3.  mouseenter()        : when mouse pointer enters the element (it Triggers when mouse moves over only selected element)
+  4.  mouseleave()        : when mouse pointer leaves the element
+  5.  mousedown()         : when any of mouse button click on element
+  6.  mousemove()         :	whenever the mouse pointer moves within the selected element
+  7.  mouseout()	        : when the mouse pointer leaves the selected element
+  8.  mouseover()	        : when the mouse pointer is over the selected element (it Triggers even when mouse moves over child of selected elements)
+  9.  mouseup()           : when any of mouse button release after clicking on element 
+  10. hover()             : it is combination of mouseenter() and mouseleave() so there will be two function to write in this event
+  11. focus()             : executed when the form field gets focus
+  12. blur()              : executed when the form field loses focus
+  13. on()                : this method attaches one or more event handlers for the selected elements
+  14. change()            : when the value of an element has been changed (only works on <input>, <textarea> and <select> elements)
+  15. focusin()           : Attaches an event handler to the focusin event
+  16. focusout()          : Attaches an event handler to the focusout event
+  17. off()               : removes event handlers attached to on()
+  18. one()               : this method attaches one or more event handlers for the selected elements(but only Trigger ONCE)
+  19. resize()            : when the browser window changes size
+  20. scroll()            : when the user scrolls in the specified element
+  21. select()            : when a text is selected (marked) in a text area or a text field
+  22. submit()            : when a form is submitted
+
+JQery Effects
+  1.  hide()              : to hide selected element
+  2.  show()              : to show selected hidden element
+  3.  fadeIn()            : to fade in a hidden element
+  4.  fadeOut()           : to fade out a visible element to hide
+  5.  fadeToggle()        : toggles between fadeIn() and fadeOut()
+  6.  fadeTo()            : allows fading to a given opacity (value between 0 and 1)
+  7.  slideDown()         : to slide down the element
+  8.  slideUp()           : to slide up the element
+  9.  slideToggle()       : to toggle between slideDown() and slideUp()
+  10. animate({param})    : to create custon animations
+  11. stop()              : to stop the ongoing animation
+  12. callback function   : it is used after the current effect is completed

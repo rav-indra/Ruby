@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event in JQery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#demo").click(function() {
+        $(this).html("This is JQery");
+      });
+      $("#demo").dblclick(function() {
+        $(this).hide();
+      });
+    });
+    // $(document).ready(function() {
+    //   $("button").toggle(
+    //     function() {
+    //       $("button").css({
+    //         "background-color": "red"
+    //       });
+    //     },
+    //     function() {
+    //       $("button").css({
+    //         "background-color": "green"
+    //       });
+    //     });
+    // });
+  </script>
+</head>
+
+<body>
+  <p id="demo">This is Javascript</p>
+</body>
+
+</html>

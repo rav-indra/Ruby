@@ -1,0 +1,9 @@
+10 November,2022
+
+- JavaScript Compare function
+- JQuery syntax and working with JQuery 
+- Difference between JavaScript and JQuery
+- JQuery selectors(id, class, element, universal,this)
+- JQuery Events(all mouse events, key events, )
+- JQuery Effects(hide, show, fade, slide, animate, stop, callback function)
+- JQuery based on IDs and Classes

@@ -65,5 +65,5 @@ JavaScript Array
   - arr.concat(arr2)      : will return new merged array
   - arr.splice(n,m,ele)   : will return new array with given element startin from index 'n' and removing 'm' elements
   - arr.slice(n,m)        : wil return array after removing m elements starting from index n
-  - arr.sort()            : to sort the array
+  - arr.sort()            : to sort the array(for string , in umbers it will not work as expected)
   - arr.reverse()         : to reverse array
