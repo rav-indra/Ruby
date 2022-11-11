@@ -1,0 +1,10 @@
+11 November,2022
+
+Weekly Summary [07/11/2022 to 11/11/2022]
+
+This week i have worked on follwing things:
+  I have completed my CSS module,and started JavaScript,
+  - Ways to add JavaScript and basics of JavaScript and difference between Javascript and JQuery
+  - JavaScript Events, Effects, Operators, Datatypes and strng array methods
+  - JQuery basics and syntax , JQuery selectors, Events and Effects with JQuery
+  - Working with JQuery DataTables (customizing and styling table) 

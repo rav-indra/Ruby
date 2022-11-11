@@ -1,0 +1,13 @@
+11 November,2022
+
+JQuery DataTable
+  - DataTables is a plug-in for the jQuery Javascript library
+  - it is used for customizing datatable and access of data from table will be much easier with it
+
+JQuery Initialization
+  - paging          : to give paging partition to table (true/false) 
+  - ordering        : to enable or disable the ordering feature (true/false) 
+  - info            : to to show or hide page information bottom left (true/false) 
+  - scrollY         : to add vertical scroll bar after applying table height  (height ,px ,vh) 
+  - scrollCollapse  : to to collapse or not table (resize) when entries are less after adding scrollY (true/false) 
+  - scrollX         : to horizontal scroll bar(here we need css for width {div.dataTable_wrapper}) (true/false) 
