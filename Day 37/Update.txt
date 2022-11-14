@@ -1,0 +1,5 @@
+14 November,2022
+
+- JQuery DataTable plugin styles
+- JQuery Datepicker plugin and customizing the date calender
+- JQuery Modal plugin
