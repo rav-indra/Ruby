@@ -16,15 +16,15 @@ $(document).ready(function() {
       }
     ],
     "dom": '<"top"if>rt<"bottom">pl<"clear">',
-    "scrollY": "100px",
-    "scrollCollapse": false,
+    "scrollY": "300px",
+    "scrollCollapse": true,
     // "scrollX": true,
     "lengthMenu": [
       [5, 10, -1],
       [5, 10, 'All'],
     ],
     "pagingType": "full_numbers",
-    "iDisplayLength": 5,
+    "iDisplayLength": 8,
     language: {
       paginate: {
         next: '&#8594;',
