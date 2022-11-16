@@ -1,2 +1,5 @@
 16 November,2022
 
+- rails new name (to crate new rails app)
+- bin/rails server or rails s 
+- 

@@ -1,2 +1,7 @@
 16 November,2022
 
+- Basic understanding of Ruby on Rails
+  - How to run rails
+  - Create new file for Rails 
+  - Open web application on server
+- Simple blog application that shows book title and discription (by watching rails documentation tutorial)
