@@ -1,0 +1,4 @@
+17 November,2022
+
+- Understanding of Rails
+- Understanding of Routes in Rails
