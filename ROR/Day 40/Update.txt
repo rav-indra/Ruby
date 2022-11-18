@@ -1,4 +1,5 @@
 17 November,2022
 
-- Understanding of Rails
-- Understanding of Routes in Rails
+- About route and basics of how it works for rails application
+- Resource routing basics 
+- actions and controllers
