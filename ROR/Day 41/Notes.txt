@@ -2,9 +2,6 @@
 
 Questions:
   - Concerns
-  - route for additional new
-  - non-resourceful routes
-
 Routers in Rails
   - Types of routes and CRUD operations(Create, Read, Update, Delete)
   - Route Resources(Singular Resource)
@@ -12,4 +9,4 @@ Routers in Rails
   - Nested Resources, Shallow nesting
   - creating paths and url
   - Adding member and collection routes
-  - Specifying a Controller to Use
+  - Customizing Resourceful Routes
