@@ -1,2 +1,8 @@
 18 November,2022
 
+Weekly Summary [14/11/2022 to 18/11/2022]
+
+This week i have worked on follwing things:
+  - JQuery Datepicker and JQuery Bootstraps
+  - Basic understanding of Ruby on Rails
+  - Routes in Rails

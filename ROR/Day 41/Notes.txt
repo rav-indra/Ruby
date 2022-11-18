@@ -1,2 +1,15 @@
 18 November,2022
 
+Questions:
+  - Concerns
+  - route for additional new
+  - non-resourceful routes
+
+Routers in Rails
+  - Types of routes and CRUD operations(Create, Read, Update, Delete)
+  - Route Resources(Singular Resource)
+  - Controller Namespace and Routing
+  - Nested Resources, Shallow nesting
+  - creating paths and url
+  - Adding member and collection routes
+  - Specifying a Controller to Use
