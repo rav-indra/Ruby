@@ -1,0 +1,11 @@
+21 November,2022
+
+- Rails Controller
+- Parameters in controller adn types of parameters
+- Session
+- Cookies 
+- Filters (before, after, around)
+
+Good Morning
+Today i will do
+  - Controller in rails

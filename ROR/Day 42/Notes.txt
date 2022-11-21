@@ -1,0 +1,46 @@
+21 November,2022
+
+Controller
+  - It is responsible for receiveing requests from user and give appropriate output.
+  - To name the Controller pruralization of last work is required like, ClientsController, AdminsContoller
+  - For Model the name wil be in singular form
+  - Controller is just ruby class which inherits from 'ApplicationController' and has methods just like any other class
+  - There are two types of parameters for controller methods
+    -> The first are parameters that are sent as part of the URL, called query string parameters.
+       The query string is everything after "?" in the URL
+    -> The second type of parameter is usually referred to as POST data.
+       This information usually comes from an HTML form which has been filled in by the user.
+       It's called POST data because it can only be sent as part of an HTTP POST request
+  - default_url_options
+    -> You can set global default parameters for URL generation by defining a method called default_url_options in your controller.
+       Such a method must return a hash with the desired defaults, whose keys must be symbols
+  - Strong parameters
+    -> With strong parameters, Action Controller parameters are forbidden to be used in Active Model mass assignments until they have been permitted
+      1) Permitted scalar values
+      2) Nested parameters
+  - Session
+    - Your application has a session for each user in which you can store small amounts of data that will be persisted between requests
+    - storage mechanisms:
+      -> ActionDispatch::Session::CookieStore       ->> Stores everything on the client.
+      -> ActionDispatch::Session::CacheStore        ->> Stores the data in the Rails cache.
+      -> ActionDispatch::Session::ActiveRecordStore ->> Stores the data in a database using Active Record (requires the activerecord-session_store gem).
+      -> ActionDispatch::Session::MemCacheStore     ->> Stores the data in a memcached cluster (this is a legacy implementation; consider using CacheStore instead).
+    1) Accessing Session
+      - can access the session through the session instance method.
+    2) The Flash
+      - The flash is a special part of the session which is cleared with each request.
+        This means that values stored there will only be available in the next request, which is useful for passing error messages, etc.
+      - The flash is accessed via the flash method. Like the session, the flash is represented as a hash.
+      - is also possible to assign a flash message as part of the redirection. You can assign :notice, :alert or the general-purpose :flash
+      - If you want a flash value to be carried over to another request, use flash.keep
+  - Cookies
+    - Your application can store small amounts of data on the client - called cookies - that will be persisted across requests and even sessions.
+    - Rails provides easy access to cookies via the cookies method, which - much like the session - works like a hash
+  - Filters
+    - Filters are methods that are run "before", "after" or "around" a controller action.
+    - Filters are inherited, so if you set a filter on ApplicationController, it will be run on every controller in your application.
+    - "before" filters are registered via before_action. They may halt the request cycle.
+      A common "before" filter is one which requires that a user is logged in for an action to be run.
+    - skip_before_action :require_login, only: [:new, :create]
+      - Now, the LoginsController's new and create actions will work as before without requiring the user to be logged in.
+        The :only option is used to skip this filter only for these actions
