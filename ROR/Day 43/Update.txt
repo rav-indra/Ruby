@@ -1,0 +1,15 @@
+22 November,2022
+
+- Controller Overview
+  - Request Forgery Protection
+  - Request and Response Objects
+  - HTTP Authentications
+  - Rescues
+- Rails Basic commands
+- Model Overview
+
+
+Good Morning
+Today i complete
+  - Controller in rails
+

@@ -1,0 +1,68 @@
+22 November,2022
+
+Request Forgery Protection
+  - Cross-site request Forgery is  type of attack in which a site tricks a user into making requests on another site,
+    possibly adding, modifying, or deleting data on that site without the user's knowledge or permission
+  - The way this is done is to add a non-guessable token which is only known to your server to each request.
+    This way, if a request comes in without the proper token, it will be denied access.
+
+The Request and Response Objects
+  - In every controller, there are two accessor methods pointing to the request and the response objects associated with the request cycle that is currently in execution.
+    The request method contains an instance of ActionDispatch::Request and the response method returns a response object representing what is going to be sent back to the client.
+      1) The request Object  : The request object contains a lot of useful information about the request coming in from the client
+        -> host                                      : The hostname used for this request.
+        -> domain(n=2)                               : 	The hostname's first n segments, starting from the right (the TLD).
+        -> format                                    :	The content type requested by the client.
+        -> method                                    :	The HTTP method used for the request.
+        -> get?, post?, patch?, put?, delete?, head? :	Returns true if the HTTP method is GET/POST/PATCH/PUT/DELETE/HEAD.
+        -> headers                                   : 	Returns a hash containing the headers associated with the request.
+        -> port                                      :	The port number (integer) used for the request.
+        -> protocol                                  :  Returns a string containing the protocol used plus "://", for example "http://".
+        -> query_string                              : 	The query string part of the URL, i.e., everything after "?".
+        -> remote_ip                                 : 	The IP address of the client.
+        -> url                                       : The entire URL used for the request.
+      2) The response Object : The response object is not usually used directly, but is built up during the execution of the action and
+                               rendering of the data that is being sent back to the user,
+                               but sometimes - like in an after filter - it can be useful to access the response directly
+        -> body         :	This is the string of data being sent back to the client. This is most often HTML.
+        -> status       :	The HTTP status code for the response, like 200 for a successful request or 404 for file not found.
+        -> location     :	The URL the client is being redirected to, if any.
+        -> content_type :	The content type of the response.
+        -> charset      :	The character set being used for the response. Default is "utf-8".
+        -> headers      :	Headers used for the response.
+
+HTTP Authentications
+  1) HTTP Basic Authentication
+    - HTTP basic authentication is an authentication scheme that is supported by the majority of browsers and other HTTP clients
+    - Can be used with "http_basic_authenticate_with"
+  2) HTTP Digest Authentication
+    - It is superior to the basic authentication as it does not require the client to send an unencrypted password over the network
+    - Can be achived by using "authenticate_or_request_with_http_digest"
+  3) HTTP Token Authentication
+    - It is a scheme to enable the usage of Bearer tokens in the HTTP Authorization header.
+      There are many token formats available and describing them is outside the scope of this document
+    - Can be achived by using "authenticate_or_request_with_http_token"
+  
+Streaming and File Downloads
+  - All controllers in Rails have the send_data and the send_file methods, which will both stream data to the client
+  1) Sending Files
+  2) RESTful Downloads
+  3) Live streaming of arbitrary data
+
+Log Filtering
+  - Rails keeps a log file for each environment in the log folder.
+  - These are extremely useful when debugging what's actually going on in your application
+    1) Parameters Filtering
+      -> You can filter out sensitive request parameters from your log files by appending them to "config.filter_parameters" in the application configuration
+    2) Redirects Filtering
+      -> Sometimes it's desirable to filter out from log files some sensitive locations your application is redirecting to.
+         It can be done by using the "config.filter_redirect configuration option"
+
+Rescues
+  - Default 500 and 404 templates
+  - rescue_form
+
+
+MODEL
+  - A library containing various modules used in developing classes that need some features present on Active Record
+  
