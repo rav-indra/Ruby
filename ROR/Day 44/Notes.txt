@@ -1,0 +1,37 @@
+23 November,2022
+
+Views
+  - Combination of three rails elements : Templates, Partials, Layouts
+    1) Templates
+      -> If the template file has a .erb extension then it uses a mixture of ERB (Embedded Ruby) and HTML.
+         If the template file has a .builder extension then the Builder::XmlMarkup library is used.
+      -> ERB : If doesn't return anything => <%...your code...%>
+               If it returnd soemthing => <%=...your code...%>
+      -> Builder : Builder templates are a more programmatic alternative to ERB. They are especially useful for generating XML content.
+                   An XmlMarkup object named xml is automatically made available to templates with a .builder extension
+    2) Partials
+      -> They are another device for breaking the rendering process into more manageable chunks.
+         With partials, you can extract pieces of code from your templates to separate files and also reuse them throughout your templates.
+      -> Naming partials : To render a partial as part of a view, use the render method within the view e.g. :- <%= render "menu" %>
+                           partials are named with a leading underscore to distinguish them from regular views e.g. :- _menu.html.erb
+      -> Using Partials to simplify Views : to treat them as the equivalent of subroutines; 
+                                            a way to move details out of a view so that you can grasp what's going on more easily
+      -> Rendering Collections : <%= render partial: "product", collection: @products %>
+
+View Paths
+  - We can add other locations and give them certain precedence when resolving paths using the prepend_view_path and append_view_path methods
+    1) Prepend view path
+    ->  when we want to put views inside a different directory for subdomains.
+        prepend_view_path "app/views/#{request.subdomain}"
+    2) Append Viwe Path
+    -> append_view_path "app/views/direct" 
+       This will add app/views/direct to the end of the lookup paths.
+
+Helpers
+  - Rails provides many helper methods to use with Action View. These include methods for:
+    -> Formatting dates, strings and numbers
+    -> Creating HTML links to images, videos, stylesheets, etc...
+    -> Sanitizing content
+    -> Creating forms
+    -> Localizing content
+
