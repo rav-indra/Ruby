@@ -1,0 +1,4 @@
+29 November,2022
+
+When it shows XYZ table already exists
+  - rake db:drop db:create db:migrate

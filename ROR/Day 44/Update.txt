@@ -1,2 +1,15 @@
-23 November,2022
+Hello @ravi
 
+Date:23/11/2022
+
+Today i have done
+  # Rails views
+    - Templates
+    - Layouts
+    - Partials
+    - View paths
+    - Helpers
+  # Action view helpers
+  # Action form helpers
+
+  Thank You

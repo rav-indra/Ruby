@@ -1,0 +1,12 @@
+28 November,2022
+
+hello@ravi
+
+Date : 28/11/2022
+
+Today I have done follwing tasks
+  #CRUD operations
+    - I created new application in rails
+    - Performed CRUD operations in app
+
+Thank You!

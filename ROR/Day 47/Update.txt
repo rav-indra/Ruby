@@ -1,0 +1,11 @@
+29 November,2022
+
+Hello@ravi
+
+Date : 29/11/2022
+
+Today I will
+  - I will do CRUD operations in rails application
+  - Learn how to add images in application
+
+Thank You!
