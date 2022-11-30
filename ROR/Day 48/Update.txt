@@ -1,0 +1,17 @@
+30 November,2022
+
+
+
+
+
+
+Hello@ravi
+
+Date : 30/11/2022
+
+Today I will
+  - I will learn to upload images in rails app and doesn't delete when updating
+  - Make a search box to search specific record
+  - Learn about services
+
+Thank You!

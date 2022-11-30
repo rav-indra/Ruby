@@ -2,3 +2,14 @@
 
 When it shows XYZ table already exists
   - rake db:drop db:create db:migrate
+
+To add images in rails app
+  - bin/rails active_storage:install
+  - rails db:migrate
+  -> In model.rb
+    - has_one_attached :nameXYZ
+  -> Form file field
+    - form.file_field :nameXYZ
+  -> In show
+    -if  @user.nameXYZ.attached?
+      image_tag @user.nameXYZ, height: "150px"

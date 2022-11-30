@@ -9,3 +9,17 @@ Today I will
   - Learn how to add images in application
 
 Thank You!
+
+Hello@ravi
+
+Date : 29/11/2022
+
+Today I have done
+  # CRUD Operations
+    - How to create, show, update, delete data
+    - Creating link to go to specific redord
+  # Active Storage
+    - What is active storege
+    - Upload images to application using form
+    - Uploading single and multiple images
+Thank You!
