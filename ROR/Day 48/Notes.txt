@@ -56,3 +56,12 @@
   </table>
 
  <%= link_to "Back to users", users_path %>
+
+
+ Service Objects
+  - When not to use service objects
+    -> when code handle routing, params or any controller-y things
+    -> When trying to share code in different controller
+    -> If code is like a model that doesn't need pesistence
+  
+  -
