@@ -7,12 +7,15 @@ Date : 02/12/2022
 What I have done today?
   # Concern
     - Learn about concern
-  # Service objects
-    - Learn about service objects
-    - Practical of service object
+    - Practice of Concern
+  # Callbacks
+    - Learn about callback
+    - Use of callbacks
+    - Practiced Controller Callbacks and ActiveRecord CallBacks
 
 Thank You!
 
+9:45 to 7:00
 
 Hello@ravi
 
