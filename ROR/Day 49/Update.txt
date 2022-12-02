@@ -1,0 +1,29 @@
+01 December,2022
+
+Hello@ravi
+
+Date : 01/12/2022
+
+What I have done today?
+  # Service objects
+    - Learn about service objects
+    - Practical of service object
+  # Concern
+    - Learn about concern
+
+Thank You!
+
+
+
+Hello@ravi
+
+Date : 01/12/2022
+
+What I will do today?
+  # Service objects
+    - Learn about service objects
+    - Practical of service object
+  # Concern
+    - Learn and practical of concern
+
+Thank You!

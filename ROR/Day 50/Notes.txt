@@ -1,0 +1,120 @@
+02 December,2022
+
+Callbacks
+  - Callbacks are methods that get called at certain moments of an object's life cycle.
+  # Callback Registration
+    - You can implement the callbacks as ordinary methods and 
+      use a macro-style class method to register them as callbacks
+    - Callbacks can also be registered to only fire on certain life cycle events
+    - It is considered good practice to declare callback methods as private. If left public,
+      they can be called from outside of the model and violate the principle of object encapsulation.
+
+Available Callbacks
+  # Creating an Object
+    - before_validation
+    - after_validation
+    - before_save
+    - around_save
+    - before_create
+    - around_create
+    - after_create
+    - after_save
+    - after_commit / after_rollback
+
+  # Updating an Object
+    - before_validation
+    - after_validation
+    - before_save
+    - around_save
+    - before_update
+    - around_update
+    - after_update
+    - after_save
+    - after_commit / after_rollback
+  
+  # Destroying an Object
+    - before_destroy
+    - around_destroy
+    - after_destroy
+    - after_commit / after_rollback
+
+    Callbacks
+      ->  after_initialize : called whenever an Active Record object is instantiated,
+                             either by directly using new or when a record is loaded from the database
+      -> after_find        : will be called whenever Active Record loads a record from the database.
+                             after_find is called before after_initialize if both are defined.
+      -> after_touch       : will be called whenever an Active Record object is touched
+
+Running Callbacks
+  # following methods trigger callbacks:
+    - create
+    - create!
+    - destroy
+    - destroy!
+    - destroy_all
+    - destroy_by
+    - save
+    - save!
+    - save(validate: false)
+    - toggle!
+    - touch
+    - update_attribute
+    - update
+    - update!
+    - valid?
+  # after_find callback is triggered by the following finder methods:
+    - all
+    - first
+    - find
+    - find_by
+    - find_by_*
+    - find_by_*!
+    - find_by_sql
+    - last
+
+Skipping Callbacks
+  # it is also possible to skip callbacks by using the following methods:
+    - decrement!
+    - decrement_counter
+    - delete
+    - delete_all
+    - delete_by
+    - increment!
+    - increment_counter
+    - insert
+    - insert!
+    - insert_all
+    - insert_all!
+    - touch_all
+    - update_column
+    - update_columns
+    - update_all
+    - update_counters
+    - upsert
+    - upsert_all
+
+Conditional Callbacks
+  - we can also make the calling of a callback method conditional on the satisfaction of a given predicate
+  # Using :if and :unless with a Symbol
+    - When using the :if option, the callback won't be executed if the predicate method returns false
+    - When using the :unless option, the callback won't be executed if the predicate method returns true
+  # Using :if and :unless with a Proc
+  # Using both :if and :unless
+  # Multiple Callback Conditions
+
+Callback Classes
+  - Active Record makes it possible to create classes that encapsulate the callback methods, so they can be reused.
+
+Contoller CallBacks
+  - after_action
+  - append_after_action
+  - append_around_action
+  - append_before_action
+  - around_action
+  - before_action
+  - prepend_after_action
+  - prepend_around_action
+  - prepend_before_action
+  - skip_after_action
+  - skip_around_action
+  - skip_before_action
