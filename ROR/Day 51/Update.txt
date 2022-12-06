@@ -1,0 +1,44 @@
+05 December,2022
+
+Hello@ravi
+
+Date : 05/12/2022
+
+What I have done today?
+  # Active::Record Queries in rails 
+    - where
+    - find
+    - select
+    - order
+    - sort
+    - limit
+    - offset
+    - pluck
+  # Simple Application
+    - Added Header and Footer
+
+What do I do next?
+  - Mailers
+  - Usage of view helpers in rails
+Thank You!
+
+
+
+10:45 to 7:25
+
+
+
+
+Hello@ravi
+
+Date : 05/12/2022
+
+What I will do today?
+  # Active::Record in rails 
+    - where
+    - find
+    - select
+    - order
+    - sort
+
+Thank You!

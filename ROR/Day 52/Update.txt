@@ -1,0 +1,23 @@
+06 December,2022
+
+Hello@ravi
+
+Date : 06/12/2022
+
+What I have done today?
+  # Mailers
+  # Usage of view helpers in rails
+
+Thank You!
+
+9:45 to 
+
+Hello@ravi
+
+Date : 06/12/2022
+
+What I will do today?
+  # Mailers
+  # Usage of view helpers in rails
+
+Thank You!

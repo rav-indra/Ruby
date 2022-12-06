@@ -1,0 +1,31 @@
+05 December,2022
+
+Active::Record
+  # Where
+    - It returns a new relation, which is the result of filtering the
+      current relation according to the conditions in the arguments.
+    - The where method allows you to specify conditions to limit
+      the records returned, representing the WHERE-part of the
+      SQL statement. Conditions can either be specified as a string,
+      array, or hash.
+  # Order
+    - Retrieves the records from the database in an specific order
+    - Default order is ascending
+  # Select
+    - This method allows to select only a subset of the attributes from 
+      entire collection or record.
+    - By default without using select method one can get all the 
+      attributes of a model collection or instance
+  # Find
+    - The find method requires an argument and that is the primary key 
+      of that model instance.
+  # Limit
+    - You can use limit to specify the number of records to be retrieved
+  # Offset
+    - To specify the number of records to skip before starting to return the 
+      records
+  # Pluck
+    - It accepts a list of column names as argument and returns an array of 
+      values of the specified columns with the corresponding data type.
+  # Sort
+    - It will sort the data in ascending order

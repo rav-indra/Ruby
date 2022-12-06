@@ -1,0 +1,14 @@
+06 December,2022
+
+Mailers
+  - Action Mailer allows you to send emails from your application using mailer classes and views
+  - Example where action mailers are used:
+    -> Sending a welcome email after registration
+    -> Sending a confirmation emails before allowing users to access their system
+    -> Weekly updates when you subcribe an application's newsletter
+  - Need to install bundle : bundle install
+  - Need gem "letter_opener"
+  - Add these line of code in : ./config/environments/development.rb
+    config.action_mailer.delivery_method = :letter_opener
+    config.action_mailer.perform_deliveries = true
+
