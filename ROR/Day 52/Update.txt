@@ -6,11 +6,14 @@ Date : 06/12/2022
 
 What I have done today?
   # Mailers
-  # Usage of view helpers in rails
+    - Learn about mailers
+    - Used mailers in demo practical
+  # View Helpers
+    - Learn about view helpers
 
 Thank You!
 
-9:45 to 
+9:45 to 19:20
 
 Hello@ravi
 

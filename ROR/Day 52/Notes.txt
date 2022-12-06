@@ -12,3 +12,6 @@ Mailers
     config.action_mailer.delivery_method = :letter_opener
     config.action_mailer.perform_deliveries = true
 
+View Helpers
+  - To extract complex logic from views one can organize code better.
+  - 
