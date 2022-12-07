@@ -1,0 +1,27 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Student reports</h1>
+  <table border=1 cellspacing=1 cellpadding=5 >
+    <tr >
+      <strong><th>Name</th>
+      <th>Roll no</th>
+      <th>Gender</th>
+      <th>Email</th>
+      <th>Maths</th>
+      <th>Physics</th>
+      <th>Chemistry</th>
+      <th>Delete</th></strong>
+    </tr>
+    <% @student_reports.each do |student_report| %>
+    <tr>
+      <td><%= link_to student_report.name.titlecase, student_report %></td>
+      <td><%= student_report.roll_no %></td>
+      <td><%= link_to image_tag(profile(student_report.gender))%></td>
+      <td><%= student_report.email %></td>
+      <td><%= student_report.maths %></td>
+      <td><%= student_report.physics %></td>
+      <td><%= student_report.chemistry %></td>
+      <td><%= button_to "Delete", student_report, method: :delete %></td>
+    </tr>
+    <% end %>
+  </table>

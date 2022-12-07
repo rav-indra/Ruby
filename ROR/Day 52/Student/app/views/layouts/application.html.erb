@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <style>
+    .bdy {
+      clear:both;
+      margin-bottom: 100px;
+    }
+      body {
+        position: relative;
+      }
+      header a {
+        text-decoration:none;
+        color: white;
+      }
+      a {
+        text-decoration:none;
+      }
+      header {
+      background-color:#4788C7;
+      height: 50px;
+      width: 100%;
+      margin:0;
+      }
+      footer {
+      background-color:#4788C7;
+      position: relative;
+      height: 100px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      top:10px;
+      width: 100%;
+      text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header><%= render "layouts/header"%></header>
+    <div class="bdy"><%= yield %></div>
+    <footer><%= render "layouts/footer"%></footer>
+  </body>
+</html>
