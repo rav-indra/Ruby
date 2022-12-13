@@ -1,0 +1,25 @@
+07 December,2022
+
+Hello@ravi
+
+Date : 07/12/2022
+
+What I have done today?
+  # View helper
+    - Added conditional output using view helper
+  # Friendly Id
+    - Learned about friendly_id and used in demo project
+  # Demo Project
+    - Student Report using rails and added css design  
+
+Thank You!
+
+Hello@ravi
+
+Date : 07/12/2022
+
+What I will do today?
+  # Make a demo project including css
+  # Use view helpers in app
+
+Thank You!

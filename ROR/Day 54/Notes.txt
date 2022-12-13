@@ -1,0 +1,19 @@
+12 December,2022
+
+Rails Gem will_paginate
+  - To add page navigation in rails application
+  - Use (gem 'will_paginate') in gemfile 
+  - Run bundle install in console
+  - Add pagination parameter to the Model which is being queried for the Paginated result set
+  - Use <%= will_paginate @name %> in .html.erb file for view
+
+Rails Environment
+  # Development
+    - In development mode Rails reloads all app classes and turns off caching to allow a faster development cycle.
+      This is how the app runs on a development workstation.
+  # Production
+    - In production mode all caching is turned on, often pointing to a memcached server.
+      This is how the app runs on the live server.
+  # Test
+    - The test mode is used in the tests, we have a special throw away database used only for test,
+      wiped out between test runs.

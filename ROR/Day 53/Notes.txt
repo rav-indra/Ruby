@@ -1,0 +1,11 @@
+07 December,2022
+
+Friendly Id
+  - Friendly id is used to hide the id or parameters from url
+  - Usually when we click and show any record it will have id of that record , that way it 
+    looks non user-friendly and one can easily guess how many record we have and can see other records too
+  - That's when friendly id comes in use 
+  - it will show slug name instead of id in url
+  - It lets you create pretty URLs and work with human-friendly strings as if they were numeric ids.
+    Ex : From -> https://example.com/states/4323454
+         To   -> https://example.com/states/USA

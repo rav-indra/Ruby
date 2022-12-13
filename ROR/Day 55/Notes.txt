@@ -1,0 +1,27 @@
+13 December,2022
+
+Authentication in Form
+  # Password Encryption Technique
+  "Never store passwords in the database as plain text"
+    - Hash Password     : - Hashing is the process of applying mathematical functions and algorithms to a string of data to produce a unique output string. 
+                          - While creating a new user, the plain text password gets hashed then saved into the database.
+                            When the user signs in, the input password gets hashed and compared with the hashed password stored in the database.
+                          - This technique is called one-way encryption, meaning, the same inputs with the same hashing function will always give the same output.
+                          - Can implement Hashed method using SHA1
+                            require 'digest/sha1'
+                            encrypted_password= Digest::SHA1.hexdigest(password)
+    - Salting Password  : - ‘Salt’ is an additional string of data added to the password before encrypting it.
+                            It should be unique and random, to render the Rainbow tables flaw useless.
+
+Devise Gem
+  # It's composed of 10 modules:
+    - Database Authenticatable  : hashes and stores a password in the database to validate the authenticity of a user while signing in. The authentication can be done both through POST requests or HTTP Basic Authentication.
+    - Omniauthable              : adds OmniAuth (https://github.com/omniauth/omniauth) support.
+    - Confirmable               : sends emails with confirmation instructions and verifies whether an account is already confirmed during sign in.
+    - Recoverable               : resets the user password and sends reset instructions.
+    - Registerable              : handles signing up users through a registration process, also allowing them to edit and destroy their account.
+    - Rememberable              : manages generating and clearing a token for remembering the user from a saved cookie.
+    - Trackable                 : tracks sign in count, timestamps and IP address.
+    - Timeoutable               : expires sessions that have not been active in a specified period of time.
+    - Validatable               : provides validations of email and password. It's optional and can be customized, so you're able to define your own validations.
+    - Lockable                  : locks an account after a specified number of failed sign-in attempts. Can unlock via email or after a specified time period.

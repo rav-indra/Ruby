@@ -1,0 +1,27 @@
+13 December,2022
+
+Hello@ravi
+
+Date : 13/12/2022
+
+What I have done today?
+  # Rails Environments
+    - Read about rails Environments
+  # Rails Gem
+    - Pagination
+
+Thank You!
+
+
+
+Hello@ravi
+
+Date : 13/12/2022
+
+What I will do today?
+  # Learn About Rails Gem
+    - Devise
+    - Stripe
+    - Letter_opener
+
+Thank You!
